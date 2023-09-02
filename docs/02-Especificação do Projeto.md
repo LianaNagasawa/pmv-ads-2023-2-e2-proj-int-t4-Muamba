@@ -46,32 +46,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID      | Descrição do Requisito    | Prioridade  |
+|-------|-------|------------|
+|RF-001| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada viajante | MÉDIA | 
+|RF-002| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada comprador  | MÉDIA |
+|RF-003| O site deve apresentar para cada vendedor e comprador uma imagem correspondente (thumbnail)  | MÉDIA |
+|RF-004| Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações  | BAIXA |
+|RF-005| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão.  | ALTA |
+|RF-006| O site deve ter uma área para troca de mensagens entre viajantes e compradores. | ALTA | 
+|RF-007| O site deve possuir uma página para cadastro de viajantes | ALTA | 
+|RF-008| O site deve possuir uma página de cadastro para compradores | ALTA | 
+|RF-009| O site deve permitir localizar produtos previamente cadastrados por outros usuários (imagens e descrições). | ALTA | 
+|RF-010| O site deve garantir o pré-cadastro de produtos.  | ALTA | 
+|RF-011| O site deve enviar uma notificação solicitando a avaliação ao final do trâmite.  | MÉDIA | 
+|RF-012| O site deve garantir o pré-cadastro de produtos.  | ALTA | 
+|RF-013| Para firmar o acordo entre usuários, os atores A e B precisam aceitar a negociação (“Fechar negócio”)  | ALTA | 
+|RF-014| O site deve ter uma área de busca dos dos produtos que os compradores desejam.  | ALTA | 
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Na página principal, devemos deixar claro o propósito do site | ALTA | 
+|RNF-002| O site deve ser responsivo |  BAIXA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |  BAIXA | 
+|RNF-004| Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) |  ALTA | 
+|RNF-005| A resposta de uma busca não pode demorar mais que 5 segundos.  |  BAIXA | 
+|RNF-006| O site deve passar segurança aos usuários ao colocar seus dados pessoais.  |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
