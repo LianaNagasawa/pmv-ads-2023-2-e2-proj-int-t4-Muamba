@@ -8,37 +8,55 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+•	Lohan é um especialista em design gráfico, tem 24 anos. Trabalha como free lancer e requer novas tecnologias que facilitem seu dia a dia, como por exemplo um ipad. Suas motivações são agilidade dos processadores apple, conectividade com seu iphone e compatibilidade com aplicativos avançados (ilustradores, designers e editores de video). Sua frustação é referente aos altos valores dos produtos de alta performance no Brasil devido aos impostos.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+•	Ana Clara, 30 anos, trabalha com publicidade e propaganda e adora viajar. Por possuir amigos e familiares morando no exterior está sempre viajando a passeio. Suas motivações são facilitar o acesso de crianças com deficiência visual aos livros em braille que são proibidos no Brasil.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+•	Laura Guazelli, 36 anos, trabalha como representante de produtos de beleza . Tem como hobbie apreciar vinhos. Sua motivação é promover eventos voltados à estética. Sua maior frustação é o alto custo dos vinhos internacionais.
+
+•	Marcela Fleury, atuária, 38 anos. Sua maior paixão é viajar. Tem facilidade em manipular pontos de cartão de crédito e transformá-los em milhas. Sempre que vai viajar algum amigo ou familiar pede algum produto.
+
+•	Antonela Saori, 18 anos, estudante. Gasta suas economias em perfumes importados. Possui dezenas de frascos de perfumes expostos em sua estante, tem como meta atingir 500 frascos em sua coleção.
+
+•	João Schirm, 32 anos, youtuber. Produz conteúdo durante suas viagens ao redor do mundo. Em seus vídeos presenta a cultura e o dia a dia das cidades mais exóticas e curiosas. A cada episódio se dispõe a trazer encomendas de seus seguidores de algo característico do país em que se encontra.
+
+•	Camila Matias, 26 anos, modelo. Quando começou a fazer viagens a trabalho se surpreendeu ao perceber a grande variedade e o baixo preço de roupas e calçados em algumas cidades que visitava. Produtos que no Brasil eram considerados de luxo e muito caros, ela encontrava em lojas simples e por um preço acessível. Foi assim que ela começou a trazer malas cheias de encomendas e presentes para amigos e familiares.
+
+•	Fernanda Oliveira, 50 anos, fotografa. Valoriza a comodidade de fazer compra a qualquer momento, independentemente do local ou da forma da compra por gostar muito de investir no seu trabalho com equipamentos de alta qualidade que muitas vezes são mais acessíveis fora do país.
+
+•	Luiz Fernando, 33 anos, empresário. Luiz atua na área automotiva que necessita da ferramenta correta para determinadas atividades para que a produtividade nas tarefas aumente. A compra de ferramentas tecnológicas com um custo menor propicia a ascensão do seu negócio.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO...          | QUERO/PRECISO ...                  |PARA ...                                |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Lohan               | Aplicativos avançados com um bom   | Para suporte no processo criativo e    |
+|                    | processador                        | agilidade na entrega do meu trabalho   |
+|--------------------|------------------------------------|----------------------------------------|
+|Laura Guazelli      | Encontrar pessoas dispostas a      | Pgar preço justo e apreciar os         |
+|                    | trazer vinhos das melhores         | vinhos da safra que lhe agrada         |
+|                    | vinícolas do mundo                 |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|Marcela Fleury      | Se disponibilizar para trazer      | Ter uma renda extra com as comisões    |
+|                    | encomendas dos lugares que visitar | que conseguir                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Antonela Saori      | Adquirir os mais diferenciados     | Pagar preço abaixo da tabela de        |
+|                    | perfumes existentes no mundo       | importados no Brasil                   |
+|--------------------|------------------------------------|----------------------------------------|
+|João Schirm         | Trazer para o Brasil encomendas    | Divulgar meu canal no YouTube e        |
+|                    | vindas de países ao redor do mundo | fidelizar a audiência                  |
+|--------------------|------------------------------------|----------------------------------------|
+|Camila Matias       | Comprar e trazer dos países que    | Facilitar o acesso a produtos          |
+|                    | visito roupas e calçados           | considerados de luxo por um valor justo|
+|--------------------|------------------------------------|----------------------------------------|
+|Fernanda Oliveira   | Investir em equipamentos de        | Melhorar a qualidade do meu trabalho   |
+|                    | qualidade e modernos               | cobrando um valor menor                |
+|--------------------|------------------------------------|----------------------------------------|
+|Luiz Fernando       | Busca de ferramentas tecnológicas  | Com as ferramentas corretas consigo    |
+|                    |                                    | agilidade na entrega dos serviços      |
+|--------------------|------------------------------------|----------------------------------------|
 
 ## Requisitos
 
