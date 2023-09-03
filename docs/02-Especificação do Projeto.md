@@ -50,14 +50,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-002| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
+|RF-003| O site deve apresentar para cada vendedor e comprador uma imagem correspondente (thumbnail) | ALTA | 
+|RF-004| Todos os botões devem ser clicáveis | ALTA | 
+|RF-005| Emitir um relatório de tarefas no mês   | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
+|RNF-003| Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) | MÉDIA | 
+|RNF-003| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -80,8 +86,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre (06/12/2023) |
+|02| Vídeo de 2 minutos sobre o problema e a solução proposta |
+|03| Atender todas as normas ABNT |
+|04| O grupo deverá utilizar o repositório específico do curso ADS |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
