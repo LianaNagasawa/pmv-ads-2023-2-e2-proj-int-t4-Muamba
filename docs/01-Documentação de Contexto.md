@@ -1,6 +1,7 @@
 # Introdução
 
 As pessoas compram produtos de outros países por diversos motivos, desde disponibilidade e qualidade até apelo cultural e considerações de custo. Aqui estão alguns motivos comuns:
+   
     1. Variedade e Exclusividade: Diferentes países oferecem produtos que podem não estar disponíveis localmente, levando os consumidores a procurar itens únicos e culturalmente distintos. Isso pode incluir artesanato tradicional, roupas, alimentos e muito mais.
     2. Qualidade e Experiência: Alguns países são conhecidos pela sua experiência e habilidade em indústrias específicas. Os consumidores podem optar por comprar produtos destes países devido à reputação de alta qualidade e mão-de-obra qualificada.
     3. Interesse Cultural: As pessoas são frequentemente atraídas por produtos que refletem a cultura, a história e as tradições de outros países. Isso pode incluir itens como arte, decoração, roupas e acessórios.
