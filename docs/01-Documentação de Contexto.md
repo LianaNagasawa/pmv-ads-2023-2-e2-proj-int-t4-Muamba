@@ -14,7 +14,7 @@ As pessoas compram produtos de outros países por diversos motivos, desde dispon
  Em resumo, comprar produtos de outros países pode oferecer aos consumidores uma vasta gama de opções, desde a satisfação da sua curiosidade sobre diferentes culturas até ao acesso a produtos de alta qualidade e artigos únicos que podem não estar disponíveis no seu mercado local.
 
 ## Problema
-Existem pessoas que gostam de comprar produtos de fora do país.  Existem pessoas que viajam muito e estão dispostas a trazer produtos de fora do país. Mas, as pessoas encontram dificuldades em se conectar com outras pessoas para ambos os interesses. 
+Existem pessoas que gostam de comprar produtos de fora do país, existem outras que viajam muito e estão dispostas a trazer produtos do exterior. Mas, nota-se uma dificuldade em conectar ambas as partes. 
 
 ## Objetivos
 
