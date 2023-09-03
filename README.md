@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+Muamba
 
-`CURSO`
+Análise e desenvolvimento de sistemas
 
-`DISCIPLINA`
+Projeto: Desenvolvimento de uma Aplicação Interativa
 
-`SEMESTRE`
+Segundo semestre de 2023
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto tem como objetivo a criação de um portal de compras no exterior, onde pessoas possam encomendar produtos de outros países e tambem possam se disponibilizar para comprar esses produtos durante uma viagem.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Douglas Henrique Matias Ferreira
+* Larissa Mara Vale Ferreira
+* Liana Cristina Vieira Santos Nagasawa
+* Pedro Victor Ferreira De Assis
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
