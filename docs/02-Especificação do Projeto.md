@@ -62,7 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
 |RNF-003| Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) | MÉDIA | 
-|RNF-003| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-004| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 
 ## Restrições
