@@ -1,12 +1,12 @@
 ## Muamba
 
-Análise e desenvolvimento de sistemas
+Análise e Desenvolvimento de Sistemas
 
 Projeto: Desenvolvimento de uma Aplicação Interativa
 
-Segundo semestre de 2023
+Segundo Semestre de 2023
 
-O projeto tem como objetivo a criação de um portal de compras no exterior, onde pessoas possam encomendar produtos de outros países e tambem possam se disponibilizar para comprar esses produtos durante uma viagem.
+O projeto tem como objetivo a criação de um portal de compras no exterior, onde pessoas possam encomendar produtos de outros países e também possam se disponibilizar para comprar esses produtos durante uma viagem.
 
 ## Integrantes
 
