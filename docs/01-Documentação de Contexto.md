@@ -10,7 +10,8 @@ As pessoas compram produtos de outros países por diversos motivos, desde dispon
     6. Moda e Tendências: As tendências de moda e design geralmente variam de acordo com a região. Os consumidores podem comprar roupas, acessórios ou decoração de outros países para acompanhar ou adotar estilos diferentes.
     7. Globalização e comércio eletrônico: A ascensão do comércio eletrônico e do transporte marítimo global tornou mais fácil para os consumidores o acesso a produtos de todo o mundo. Os mercados online permitem que as pessoas comprem itens que podem não estar disponíveis localmente.
     8. Escolhas Éticas e Sustentáveis: Alguns consumidores procuram produtos provenientes de países com melhores práticas ambientais ou laborais, alinhando-se com os seus valores de sustentabilidade e fornecimento ético.
-	Em resumo, comprar produtos de outros países pode oferecer aos consumidores uma vasta gama de opções, desde a satisfação da sua curiosidade sobre diferentes culturas até ao acesso a produtos de alta qualidade e artigos únicos que podem não estar disponíveis no seu mercado local.
+	
+ Em resumo, comprar produtos de outros países pode oferecer aos consumidores uma vasta gama de opções, desde a satisfação da sua curiosidade sobre diferentes culturas até ao acesso a produtos de alta qualidade e artigos únicos que podem não estar disponíveis no seu mercado local.
 
 ## Problema
 Existem pessoas que gostam de comprar produtos de fora do país.  Existem pessoas que viajam muito e estão dispostas a trazer produtos de fora do país. Mas, as pessoas encontram dificuldades em se conectar com outras pessoas para ambos os interesses. 
