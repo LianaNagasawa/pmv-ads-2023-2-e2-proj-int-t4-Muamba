@@ -18,12 +18,11 @@ Existem pessoas que gostam de comprar produtos de fora do país, existem outras 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo geral deste trabalho é a criação de um portal de compras no exterior onde os usuários se disponibilizam para comprar determinado produto para outra pessoa durante alguma viagem ao exterior.
+Como objetivos específicos, podemos ressaltar:
+ ● Fornecer funcionalidades que permitam interagir com viajantes com intuito de beneficiar os dois lados e ao mesmo tempo estar assegurado pela plataforma.
+● Comprar produtos que não estão disponíveis ou que são muito caros no seu país.
+● Permitir a criação de canais de comunicação entre viajantes e compradores.
 
 ## Justificativa
 
