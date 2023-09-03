@@ -54,6 +54,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O site deve apresentar para cada vendedor e comprador uma imagem correspondente (thumbnail) | ALTA | 
 |RF-004| Todos os botões devem ser clicáveis | ALTA | 
 |RF-005| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-006|   |  |
+|RF-007|    |  |
+|RF-008|    |  |
+|RF-009|    |  |
+|RF-010|    |  |
+|RF-011|    |  |
+|RF-012|    |  |
+|RF-013|    |  |
+|RF-014|    |  |
 
 ### Requisitos não Funcionais
 
@@ -63,6 +72,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA | 
 |RNF-003| Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) | MÉDIA | 
 |RNF-004| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-005| |  BAIXA |
 
 
 ## Restrições
