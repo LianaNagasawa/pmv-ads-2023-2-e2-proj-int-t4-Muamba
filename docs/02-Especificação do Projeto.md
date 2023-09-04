@@ -76,7 +76,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-07|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
 
 
-=======
 ## Regras de Negócio
 
 As regras de Negócio desse projeto, são:
