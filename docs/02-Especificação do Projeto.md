@@ -110,25 +110,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Casos de Uso
 |Requisito| Casos de uso               |
 |---------|----------------------------|
-|RF-005|	Cadastrar dados pessoais
-|RF-002|	
-|RF-003   O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login. |
-|RF-001|	Avaliar Trâmite
-|RF-010|	Tanto o usuário comprador quanto o viajante, ao final da negociação deve avaliar a outra parte para aumentar/diminuir o nível de                 confiabilidade do avaliado.
-|RF-003|  Realizar busca
-|RF-007|	O usuário enquanto comprador, realiza a busca por um produto que deseja comprar ou pelo local de onde deseja comprar.
-|RF-008|	Cadastrar produtos
-|RF-009|	O usuário pessoa não encontrou o produto desejado durante a busca de produtos, então ele pode pré cadastrar um novo produto.
-|RF-006|	Analisar o cadastro de produtos
-|RF-012|	O administrador do site recebe uma notificação do pré-cadastro de um produto, após a análise, decide de aprova ou não o cadastro do             novo produto.
-|RF-011|	Iniciar Negociação
-          O usuário comprador seleciona o produto e a origem do produto, encontra viajantes, e inicia a negociação. Uma notificação é enviada ao           usuário viajante escolhido.
-|RF-013|	Analisar Negociação
-          O usuário viajante escolhido, analisa a negociação e o usuário comprador recebe uma notificação sobre a recusa ou o aceite da                    negociação. 
-|RF-014|  Anunciar viagem
-          O usuário viajante anuncia suas próximas viagem para que usuários compradores façam suas encomendas.
-|RF-004|	Aceitar/ Recusar Negociação        
-          O usuário viajante aceita a negociação e o usuário comprador tem acesso às formas de contato para combinar detalhes do trâmite.
-|RF-013|	Realizar busca
+|RF-005 RF-002| Cadastrar dados pessoais - O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login. |
+|RF-001 RF-010| Avaliar Trâmite - Tanto o usuário comprador quanto o viajante, ao final da negociação deve avaliar a outra parte para aumentar/diminuir o nível de confiabilidade do avaliado.|
+|RF-003 RF-007|  Realizar busca - O usuário enquanto comprador, realiza a busca por um produto que deseja comprar ou pelo local de onde deseja comprar.
+|RF-008 RF-009| Cadastrar produtos - O usuário pessoa não encontrou o produto desejado durante a busca de produtos, então ele pode pré cadastrar um novo produto.
+|RF-006 RF-012|	Analisar o cadastro de produtos - O administrador do site recebe uma notificação do pré-cadastro de um produto, após a análise, decide de aprova ou não o cadastro do novo produto.
+|RF-011|	Iniciar Negociação - O usuário comprador seleciona o produto e a origem do produto, encontra viajantes, e inicia a negociação. Uma notificação é enviada ao usuário viajante escolhido.
+|RF-013|	Analisar Negociação - O usuário viajante escolhido, analisa a negociação e o usuário comprador recebe uma notificação sobre a recusa ou o aceite da negociação. 
+|RF-014|  Anunciar viagem - O usuário viajante anuncia suas próximas viagem para que usuários compradores façam suas encomendas.
+|RF-004 RF-013|	Aceitar/ Recusar Negociação - O usuário viajante aceita a negociação e o usuário comprador tem acesso às formas de contato para combinar detalhes do trâmite.	
           
 
