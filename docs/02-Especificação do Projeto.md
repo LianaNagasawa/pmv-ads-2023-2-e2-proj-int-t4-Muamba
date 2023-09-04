@@ -46,7 +46,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|-------|-----------------------------------------|----|
 |RF-001| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
 |RF-002| O site deve exigir foto do usuário ao finalizar cadastro (thumbnail) | ALTA |
 |RF-003| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam. | MÉDIA |
@@ -62,6 +61,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013|	O site deve permitir ao usuário viajante, analisar a negociação.	| MÉDIA |
 |RF-014|	O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.	| MÉDIA |
 
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
@@ -75,6 +75,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
 
 
+
+Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+
+- [Requisitos Funcionais
+ (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
+ correspondem a uma funcionalidade que deve estar presente na
+  plataforma (ex: cadastro de usuário).
+- [Requisitos Não Funcionais
+  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
+  correspondem a uma característica técnica, seja de usabilidade,
+  desempenho, confiabilidade, segurança ou outro (ex: suporte a
+  dispositivos iOS e Android).
+Lembre-se que cada requisito deve corresponder à uma e somente uma
+característica alvo da sua solução. Além disso, certifique-se de que
+todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+=======
 ## Regras de Negócio
 
 As regras de Negócio desse projeto, são:
@@ -87,6 +103,7 @@ As regras de Negócio desse projeto, são:
 |04| Não será permitido o cadastro de produtos ilícitos no Brasil, tais como, drogas, armas de fogos, remédios controlados, etc. |
 |05| Não será permitido o cadastro de animais de estimação e nem animais silvestres. |
 |06| Não será permitido o cadastro de produtos envolvendo pedofilia. |
+
 
 ## Restrições
 
