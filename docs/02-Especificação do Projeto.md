@@ -111,7 +111,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Requisito| Casos de uso               |
 |---------|----------------------------|
 |RF-005|	Cadastrar dados pessoais
-|RF-002|	O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login.
+|RF-002|	
+|RF-003   O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login. |
 |RF-001|	Avaliar Trâmite
 |RF-010|	Tanto o usuário comprador quanto o viajante, ao final da negociação deve avaliar a outra parte para aumentar/diminuir o nível de                 confiabilidade do avaliado.
 |RF-003|  Realizar busca
