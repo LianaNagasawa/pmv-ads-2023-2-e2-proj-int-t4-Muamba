@@ -100,6 +100,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Vídeo de 2 minutos sobre o problema e a solução proposta |
 |03| Atender todas as normas ABNT |
 |04| O grupo deverá utilizar o repositório específico do curso ADS |
+|05| O O projeto deverá ser desenvolvido por integrantes do grupo, não poderá ser terceirizado |
 
 
 ## Diagrama de Casos de Uso
@@ -107,4 +108,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ![Casos de Uso Muamba](img/diagrama_casos_de_uso_muamba.jpg)  
 
 ## Casos de Uso
+
+|RF-005|	Cadastrar dados pessoais
+|RF-002|	O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login.
+|RF-001|	Avaliar Trâmite
+|RF-010|	Tanto o usuário comprador quanto o viajante, ao final da negociação deve avaliar a outra parte para aumentar/diminuir o nível de                 confiabilidade do avaliado.
+|RF-003|  Realizar busca
+|RF-007|	O usuário enquanto comprador, realiza a busca por um produto que deseja comprar ou pelo local de onde deseja comprar.
+|RF-008|	Cadastrar produtos
+|RF-009|	O usuário pessoa não encontrou o produto desejado durante a busca de produtos, então ele pode pré cadastrar um novo produto.
+|RF-006|	Analisar o cadastro de produtos
+|RF-012|	O administrador do site recebe uma notificação do pré-cadastro de um produto, após a análise, decide de aprova ou não o cadastro do             novo produto.
+|RF-011|	Iniciar Negociação
+          O usuário comprador seleciona o produto e a origem do produto, encontra viajantes, e inicia a negociação. Uma notificação é enviada ao           usuário viajante escolhido.
+|RF-013|	Analisar Negociação
+          O usuário viajante escolhido, analisa a negociação e o usuário comprador recebe uma notificação sobre a recusa ou o aceite da                    negociação. 
+|RF-014|  Anunciar viagem
+          O usuário viajante anuncia suas próximas viagem para que usuários compradores façam suas encomendas.
+|RF-004|	Aceitar/ Recusar Negociação        
+          O usuário viajante aceita a negociação e o usuário comprador tem acesso às formas de contato para combinar detalhes do trâmite.
+|RF-013|	Realizar busca
+          
 
