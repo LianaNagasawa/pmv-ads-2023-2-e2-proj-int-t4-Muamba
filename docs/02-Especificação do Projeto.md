@@ -108,7 +108,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ![Casos de Uso Muamba](img/diagrama_casos_de_uso_muamba.jpg)  
 
 ## Casos de Uso
-
+|-------|-------------------------|----|
 |RF-005|	Cadastrar dados pessoais
 |RF-002|	O usuário fornece dados exigidos pela página. Terá um id e uma senha para efetuar o login.
 |RF-001|	Avaliar Trâmite
