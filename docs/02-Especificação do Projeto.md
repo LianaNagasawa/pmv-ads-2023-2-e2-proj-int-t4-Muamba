@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
@@ -48,7 +46,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
 |RF-001| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
 |RF-002| O site deve exigir foto do usuário ao finalizar cadastro (thumbnail) | ALTA |
 |RF-003| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam. | MÉDIA |
@@ -93,6 +90,20 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+=======
+## Regras de Negócio
+
+As regras de Negócio desse projeto, são:
+
+|ID| Regras                                           |
+|--|-------------------------------------------------------|
+|01| O cadastro de viajantes e compradores só poderá ser aceito com o preenchimento dos dados obrigatórios e após a verificação do algoritmo do CPF. |
+|02| A avaliação será por meio de notas (satisfeito_10 / insatisfeito_0). A somatória das notas de uma avaliação acarretará o aumento ou a diminuição do nível do usuário. |
+|03| O não preenchimento da avaliação ao final do prazo da negociação suspenderá por 30 dias o usuário da plataforma, através do número do CPF do cadastro. |
+|04| Não será permitido o cadastro de produtos ilícitos no Brasil, tais como, drogas, armas de fogos, remédios controlados, etc. |
+|05| Não será permitido o cadastro de animais de estimação e nem animais silvestres. |
+|06| Não será permitido o cadastro de produtos envolvendo pedofilia. |
+
 
 ## Restrições
 
@@ -100,25 +111,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre (06/12/2023) |
+|02| Vídeo de 2 minutos sobre o problema e a solução proposta |
+|03| Atender todas as normas ABNT |
+|04| O grupo deverá utilizar o repositório específico do curso ADS |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+![Casos de Uso Muamba](img/diagrama_casos_de_uso_muamba.jpg)  
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+## Casos de Uso
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
