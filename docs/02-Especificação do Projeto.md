@@ -49,15 +49,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
+|RF-002| O site deve exigir foto do usuário ao finalizar cadastro (thumbnail) | ALTA |
+|RF-003| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam. | MÉDIA |
+|RF-004|	O site deve permitir acesso às formas de contato entre usuários que iniciaram negociação.	| MÉDIA |
+|RF-005|	O site deve possuir uma página para cadastro de usuários (Pessoas) | ALTA |
+|RF-006|	O site deve enviar notificação ao administrador do site, toda vez que um produto novo for cadastrado	| MÉDIA |
+|RF-007|	O site deve permitir localizar produtos previamente cadastrados por outros usuários (imagens e descrições). |	MÉDIA |
+|RF-008|	O site deve permitir cadastrar produtos (imagens e descrições).	| ALTA |
+|RF-009|	O site deve garantir o pré-cadastro de produtos.	| BAIXA |
+|RF-010|	O site deve enviar uma notificação solicitando a avaliação ao final do trâmite.	| MÉDIA |
+|RF-011|	O site deve permitir ao usuário comprador, escolher o viajante e iniciar a negociação.	| MÉDIA |
+|RF-012|	O site deve comunicar o usuário comprador se o produto foi aceito ou recusado.	| MÉDIA |
+|RF-013|	O site deve permitir ao usuário viajante, analisar a negociação.	| MÉDIA |
+|RF-014|	O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.	| MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|	Na página principal, devemos deixar claro o propósito do site |	MÉDIA |
+|RNF-002|	O site deve ser responsivo |	MÉDIA |
+|RNF-003|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade |	MÉDIA |
+|RNF-004|	Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) |	MÉDIA |
+|RNF-005|	A resposta de uma busca não pode demorar mais que 5 segundos. |	MÉDIA |
+|RNF-006|	O site deve passar segurança aos usuários ao colocar seus dados pessoais. |	MÉDIA |
+|RNF-007|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
