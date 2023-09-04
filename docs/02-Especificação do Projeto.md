@@ -75,6 +75,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
 
 
+## Regras de Negócio
+
+As regras de Negócio desse projeto, são:
+
+|ID| Regras                                           |
+|--|-------------------------------------------------------|
+|01| O cadastro de viajantes e compradores só poderá ser aceito com o preenchimento dos dados obrigatórios e após a verificação do algoritmo do CPF. |
+|02| A avaliação será por meio de notas (satisfeito_10 / insatisfeito_0). A somatória das notas de uma avaliação acarretará o aumento ou a diminuição do nível do usuário. |
+|03| O não preenchimento da avaliação ao final do prazo da negociação suspenderá por 30 dias o usuário da plataforma, através do número do CPF do cadastro. |
+|04| Não será permitido o cadastro de produtos ilícitos no Brasil, tais como, drogas, armas de fogos, remédios controlados, etc. |
+|05| Não será permitido o cadastro de animais de estimação e nem animais silvestres. |
+|06| Não será permitido o cadastro de produtos envolvendo pedofilia. |
 
 ## Restrições
 
