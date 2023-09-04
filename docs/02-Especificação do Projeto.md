@@ -47,33 +47,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
-|RF-001| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
-|RF-002| O site deve exigir foto do usuário ao finalizar cadastro (thumbnail) | ALTA |
-|RF-003| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam. | MÉDIA |
-|RF-004|	O site deve permitir acesso às formas de contato entre usuários que iniciaram negociação.	| MÉDIA |
-|RF-005|	O site deve possuir uma página para cadastro de usuários (Pessoas) | ALTA |
-|RF-006|	O site deve enviar notificação ao administrador do site, toda vez que um produto novo for cadastrado	| MÉDIA |
-|RF-007|	O site deve permitir localizar produtos previamente cadastrados por outros usuários (imagens e descrições). |	MÉDIA |
-|RF-008|	O site deve permitir cadastrar produtos (imagens e descrições).	| ALTA |
-|RF-009|	O site deve garantir o pré-cadastro de produtos.	| BAIXA |
-|RF-010|	O site deve enviar uma notificação solicitando a avaliação ao final do trâmite.	| MÉDIA |
-|RF-011|	O site deve permitir ao usuário comprador, escolher o viajante e iniciar a negociação.	| MÉDIA |
-|RF-012|	O site deve comunicar o usuário comprador se o produto foi aceito ou recusado.	| MÉDIA |
-|RF-013|	O site deve permitir ao usuário viajante, analisar a negociação.	| MÉDIA |
-|RF-014|	O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.	| MÉDIA |
+|RF-01| O site deve apresentar o sistema de avaliações com estrelas e comentários para cada vendedor e comprador | ALTA | 
+|RF-02| O site deve exigir foto do usuário ao finalizar cadastro (thumbnail) | ALTA |
+|RF-03| O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam. | MÉDIA |
+|RF-04|	O site deve permitir acesso às formas de contato entre usuários que iniciaram negociação.	| MÉDIA |
+|RF-05|	O site deve possuir uma página para cadastro de usuários (Pessoas) | ALTA |
+|RF-06|	O site deve enviar notificação ao administrador do site, toda vez que um produto novo for cadastrado	| MÉDIA |
+|RF-07|	O site deve permitir localizar produtos previamente cadastrados por outros usuários (imagens e descrições). |	MÉDIA |
+|RF-08|	O site deve permitir cadastrar produtos (imagens e descrições).	| ALTA |
+|RF-09|	O site deve garantir o pré-cadastro de produtos.	| BAIXA |
+|RF-10|	O site deve enviar uma notificação solicitando a avaliação ao final do trâmite.	| MÉDIA |
+|RF-11|	O site deve permitir ao usuário comprador, escolher o viajante e iniciar a negociação.	| MÉDIA |
+|RF-12|	O site deve comunicar o usuário comprador se o produto foi aceito ou recusado.	| MÉDIA |
+|RF-13|	O site deve permitir ao usuário viajante, analisar a negociação.	| MÉDIA |
+|RF-14|	O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.	| MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|	Na página principal, devemos deixar claro o propósito do site |	MÉDIA |
-|RNF-002|	O site deve ser responsivo |	MÉDIA |
-|RNF-003|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade |	MÉDIA |
-|RNF-004|	Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) |	MÉDIA |
-|RNF-005|	A resposta de uma busca não pode demorar mais que 5 segundos. |	MÉDIA |
-|RNF-006|	O site deve passar segurança aos usuários ao colocar seus dados pessoais. |	MÉDIA |
-|RNF-007|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
+|RNF-01|	Na página principal, devemos deixar claro o propósito do site |	MÉDIA |
+|RNF-02|	O site deve ser responsivo |	MÉDIA |
+|RNF-03|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade |	MÉDIA |
+|RNF-04|	Compatibilidade com principais navegadores (Chrome, Firefox, Opera, Safari) |	MÉDIA |
+|RNF-05|	A resposta de uma busca não pode demorar mais que 5 segundos. |	MÉDIA |
+|RNF-06|	O site deve passar segurança aos usuários ao colocar seus dados pessoais. |	MÉDIA |
+|RNF-07|	Inclusão de ALTs (descrições de imagens) nas fotos e ilustrações (RNF) |	MÉDIA |
 
 
 
