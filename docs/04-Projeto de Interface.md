@@ -17,7 +17,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 ### Index
 O Projeto terá na tela Index, informações sobre os membros do grupo, sobre a Instituição e coordenador do projeto. 
 
-![Tela Index - Muamba](img/WF_Index.jpg)
+![Tela Index - Muamba](img/WF_Index.JPG)
 
 ### Home-Page
 A tela Home-Page mostra destaques dos conteúdos oferecidos, como “Negociações Recentes”, “Como isso Funciona” tanto para usuários Compradores quanto para usuários viajantes e “Melhores Avaliados”.  É composto, também, por cabeçalho e rodapé que seguem padrão para todas as páginas. 
