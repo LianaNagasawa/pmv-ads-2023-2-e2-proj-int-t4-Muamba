@@ -25,7 +25,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO...          | QUERO/PRECISO ...                  |PARA ...                                |
 |--------------------|------------------------------------|----------------------------------------|
-|Lohan | Aplicativos avançados com um bom processador | Para suporte no processo criativo e agilidade na entrega do meu trabalho |
+|Lohan | Aplicativos avançados(com um bom processador) que são caros no Brasil | Conseguir melhor preço no aparelho, para suporte no processo criativo e agilidade na entrega do meu trabalho|
+|Ana Clara | Encontrar variedade de livros em braile| Ter maior oferta de livros para ajudar no desenvolvimento estudantil de crianças |
 |Laura Guazelli | Encontrar pessoas dispostas a trazer vinhos das melhores vinícolas do mundo | Pagar preço justo e apreciar os vinhos da safra que lhe agrada |
 |Marcela Fleury | Se disponibilizar para trazer encomendas dos países que visitar | Ter uma renda extra com as comisões que conseguir |
 |Antonela Saori | Adquirir os mais diferenciados perfumes existentes no mundo | Pagar preço abaixo da tabela de importados no Brasil |
@@ -34,7 +35,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Fernanda Oliveira | Investir em equipamentos de qualidade e modernos | Melhorar a qualidade do meu trabalho cobrando um valor menor |
 |Luiz Fernando | Comprar ferramentas tecnológicas | Com as ferramentas corretas consigo agilidade na entrega dos serviços |
 
-## Requisitos
+## Requisitos do Projeto
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
