@@ -12,7 +12,7 @@ As telas desenvolvidas para cada uma das funcionalidades do sistema serão apres
 1. Nenhum 
 
 ### Artefatos da funcionalidade
-1. index.html
+1. home_page.html
 2. Style.css
 
 ### Estrutura de Dados
