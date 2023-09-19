@@ -72,4 +72,4 @@ Por exemplo:
 | Objetivo do Teste 	| Avaliação do comprador e do viajante  |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir até Minhas Avaliações - Clicar na negociação feita e finalizada - Responder todas as questões mandatórias - Clicar em Enviar Avaliação |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - Há mensagens de aviso em todas as etapas - O botão de Enviar Avaliação deve ficar disponível APÓS avaliação de todos os pontos requeridos - Mensagem avisando aos usuários a importância de tal avaliação para permanecimento no site |
-| | |
+
