@@ -40,6 +40,7 @@ Por exemplo:
 | Objetivo do Teste 	| Checar novos produtos sendo cadastrados no site |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de produtos e realizar um novo cadastro de produto. - Verificar se o Admin foi propriamente notificado. - Aceitar o produto - Fazer o mesmo processo e recusar o produto. - Logar como usuário comprador. - Verificar se a mensagem de aceita ou recusa foi propriamente recebida |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - Ao receber uma notificação o admin deve receber todo o formulário previamente preenchido. - O admin tem a possibilidade de recusar ou aceitar. - O usuário comprador recebe a mensagem avisando sobre a decisão do admin. |
+| | |
 
 | Caso de Teste 	| CT-05– Viajante cadastrando a próxima viagem |
 |:---:	|:---:	|
@@ -47,3 +48,4 @@ Por exemplo:
 | Objetivo do Teste 	| Usuário viajantes cadastrando a próxima viagem |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a opção Anunciar viagem. - Preencher todo o formulário. - Clicar em Anunciar Viagem. |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta). - Terá uma seção com histórico de viagens. - Opção de avaliar comprador caso não tenha ainda o feito em viagens passadas |
+| | |
