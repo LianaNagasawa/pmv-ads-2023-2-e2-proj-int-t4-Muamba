@@ -25,7 +25,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO...          | QUERO/PRECISO ...                  |PARA ...                                |
 |--------------------|------------------------------------|----------------------------------------|
-|Lohan | Aplicativos avançados(com um bom processador) que são caros no Brasil | Conseguir melhor preço no aparelho, para suporte no processo criativo e agilidade na entrega do meu trabalho|
+|Lohan | Aplicativos avançados(com um bom processador) que são caros no Brasil | Conseguir melhor preço no dispositivo, para suporte no processo criativo e agilidade na entrega do produtos final para os clientes dele |
 |Ana Clara | Encontrar variedade de livros em braile| Ter maior oferta de livros para ajudar no desenvolvimento estudantil de crianças |
 |Laura Guazelli | Encontrar pessoas dispostas a trazer vinhos das melhores vinícolas do mundo | Pagar preço justo e apreciar os vinhos da safra que lhe agrada |
 |Marcela Fleury | Se disponibilizar para trazer encomendas dos países que visitar | Ter uma renda extra com as comisões que conseguir |
