@@ -19,9 +19,9 @@ A equipe está organizada da seguinte maneira:
 |Funções|Colaborador|
 |---------|------------|
 | Scrum Master:|Liana Nagasawa|
-| Product Owner:|Pedro Vitor|
+| Product Owner:|Pedro Victor|
 | Equipe de Desenvolvimento:|Larissa Mara|
-| |Pedro Vitor|
+| |Pedro Victor|
 | |Liana Nagasawa|
 | |Douglas Ferreira|
 | Equipe de Designer:|Douglas Ferreira|
