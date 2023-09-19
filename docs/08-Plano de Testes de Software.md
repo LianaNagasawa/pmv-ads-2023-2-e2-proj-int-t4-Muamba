@@ -20,7 +20,7 @@ Por exemplo:
 |:---:	|:---:	|
 |Requisito Associado | **RF-03** & **RF-07**- O site deve ter uma área de busca dos locais onde os viajantes disponíveis estão, e dos produtos que os compradores desejam & O site deve permitir localizar produtos previamente cadastrados por outros usuários (imagens e descrições).|
 | Objetivo do Teste 	| Página de produtos e possíveis localidades de viajantes |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>.  - Ir para página de busca de produtos.  - Selecionar produtos por categoria.  - Selecionar produtos por palavra-chave. 
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>.  - Ir para página de busca de produtos  - Selecionar produtos por categoria  - Selecionar produtos por palavra-chave. 
  - Cards com possíveis produtos que estejam cadastrados após a buscar.  - Área com possibilidade de cadastrar produtos.  - Área com possibilidade de escolher localidade específica. |
 |Critério de Êxito | - Todos os botões são clicáveis e direcionam corretamente. Além de retornar resultados caso haja e em todas as opções o usuário ser informado com mensagens sobre o resultado da tentativa.  |
 
