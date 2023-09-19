@@ -7,8 +7,8 @@ As definições ferramentais utilizadas nesse projeto, tanto para manutenção d
 | Ambiente| Plataforma | Link de Acesso |
 |---------|------------|----------------|
 | Repositório de código fonte | GitHub |[Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-Muamba)|
-| Documento do Projeto | GitHub| [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t4-Muamba)|
-| Projeto de Interface e Wireframes | MarvelApp | [Marvel](https://marvelapp.com/project/6697348)|
+| Documento do Projeto | Google Drive| [Google Drive](https://drive.google.com/drive/folders/1hxVrdI9RKL79lTaj-EypwQArH3oxdxM9)|
+| Projeto de Interface e Wireframes | MarvelApp | [Marvel](https://marvelapp.com/prototype/8bfag4h)|
 | Gerenciamento do Projeto | Trello | [Trello](https://trello.com/b/70zqgLpG/muamba)
 
 ## Gerenciamento do Projeto
