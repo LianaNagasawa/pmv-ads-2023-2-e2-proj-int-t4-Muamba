@@ -28,18 +28,18 @@ Por exemplo:
 |Requisito Associado | RF-08- O site deve permitir cadastrar produtos (imagens e descrições). |
 | Objetivo do Teste 	| Cadastrar produtos que não estejam previamente disponíveis |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de busca de produtos. - Rolar a página até a seção "Não conseguiu localizar o produto?". - Clicar em "Cadastrar Produto". - Selecione a categoria do seu produto. - Insira até 10 palavras-chave. - Insira uma imagem do produto. - Clique em Cadastrar esse produto. - Receba uma mensagem de confirmação. |
-|Critério de Êxito | - Todos os botões devem ser clicáveis - O botão Cadastrar esse produto deve estar inativo até que  todos os campos estejam preenchidos - Há mensagem de confirmação sobre o envio e também sobre a falta de algum campo mandatório |
+|Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão Cadastrar esse produto deve estar inativo até que  todos os campos estejam preenchidos. - Há mensagem de confirmação sobre o envio e também sobre a falta de algum campo mandatório. |
 
 | Caso de Teste 	| CT-04– Notificações ao Administrador e Comprador sobre novos produtos |
 |:---:	|:---:	|
 |Requisito Associado | **RF-06** e **RF-12** - O site deve enviar notificação ao administrador do site, toda vez que um produto novo for cadastrado **&** O site deve comunicar o usuário comprador se o produto foi aceito ou recusado.|
 | Objetivo do Teste 	| Checar novos produtos sendo cadastrados no site |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de produtos e realizar um novo cadastro de produto. - Verificar se o Admin foi propriamente notificado. - Aceitar o produto - Fazer o mesmo processo e recusar o produto. - Logar como usuário comprador. - Verificar se a mensagem de aceita ou recusa foi propriamente recebida |
-|Critério de Êxito | - Todos os botões devem ser clicáveis - Ao receber uma notificação o admin deve receber todo o formulário previamente preenchido - O admin tem a possibilidade de recusar ou aceitar - O usuário comprador recebe a mensagem avisando sobre a decisão do admin |
+|Critério de Êxito | - Todos os botões devem ser clicáveis. - Ao receber uma notificação o admin deve receber todo o formulário previamente preenchido. - O admin tem a possibilidade de recusar ou aceitar. - O usuário comprador recebe a mensagem avisando sobre a decisão do admin. |
 
 | Caso de Teste 	| CT-05– Viajante cadastrando a próxima viagem |
 |:---:	|:---:	|
 |Requisito Associado | RF-14 - O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.|
 | Objetivo do Teste 	| Usuário viajantes cadastrando a próxima viagem |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a opção Anunciar viagem. - Preencher todo o formulário. - Clicar em Anunciar Viagem. |
-|Critério de Êxito | - Todos os botões devem ser clicáveis - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta) - Terá uma seção com histórico de viagens - Opção de avaliar comprador caso não tenha ainda o feito em viagens passadas |
+|Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta). - Terá uma seção com histórico de viagens. - Opção de avaliar comprador caso não tenha ainda o feito em viagens passadas |
