@@ -14,16 +14,18 @@ Este diagrama apresenta o estudo do fluxo de interação do usuário com o siste
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 ![Modelo de Entidade de Relacionamento](img/diagramaderelacionamento.png)
+<br/>*Figura 21 - Projeto Conceitual Entidades de Relacionamento*
 
 ## Diagrama de Componentes
 
 ![Diagrama de Componentes](img/diagramadecomponentes.png)
+<br/>*Figura 22 - Diagrama de Compenentes*
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+Esse é O projeto da base de dados corresponde à representação das entidades e relacionamento.
+![Projeto Banco de Dados](img/Projeto_Banco_de_Dados.jpg)
+<br/>*Figura 23 - Projeto Banco de Dados*
 
 ## Tecnologias Utilizadas
 
