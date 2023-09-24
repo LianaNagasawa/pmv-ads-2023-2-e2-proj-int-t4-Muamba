@@ -1,6 +1,6 @@
 # Introdução
 
-As pessoas compram produtos de outros países por diversos motivos, desde disponibilidade e qualidade até apelo cultural e considerações de custo. Aqui estão alguns motivos comuns:
+As pessoas compram produtos de outros países por diversos motivos desde disponibilidade e qualidade, até apelo cultural e considerações de custo. Aqui estão alguns motivos comuns:
    
 1. Variedade e Exclusividade: Diferentes países oferecem produtos que podem não estar disponíveis localmente, levando os consumidores a procurar itens únicos e culturalmente distintos. Isso pode incluir artesanato tradicional, roupas, alimentos e muito mais.
 2. Qualidade e Experiência: Alguns países são conhecidos pela sua experiência e habilidade em indústrias específicas. Os consumidores podem optar por comprar produtos destes países devido à reputação de alta qualidade e mão-de-obra qualificada.
@@ -18,23 +18,23 @@ Existem pessoas que gostam de comprar produtos de fora do país, existem outras 
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de um portal de compras no exterior onde os usuários se disponibilizam para comprar determinado produto para outra pessoa durante alguma viagem ao exterior.
+O objetivo geral deste trabalho é a criação de um portal de compras, onde os usuários se disponibilizam para comprar determinado produto para outra pessoa durante alguma viagem ao exterior.
 Como objetivos específicos, podemos ressaltar:
 
  - Faciliar o encontro entre viajantes dispostos a trazer encomendas com pessoas que tenham interesse em comprar produtos de fora do país, com intuito de beneficiar os dois lados e ao mesmo tempo estar assegurado pelas avaliações de ususários da plataforma.
  
-- Localicar pessoas que estejam interessadas em cmprar produtos que não estão disponíveis ou que são muito caros no seu país.
+- Localizar pessoas que estejam interessadas em comprar produtos que não estão disponíveis ou que são muito caros no seu país de origem.
 
 - Oferecer canais de comunicação entre viajantes e compradores.
 
 ## Justificativa
 
-No cenário atual diversos fatores apontam para a necessidade de um portal de compras no exterior que conecte compradores e viajantes.
+No cenário atual, diversos fatores apontam para a necessidade de um portal de compras no exterior que conecte compradores e viajantes.
 A economia compartilhada está em ascensão e a compra de produtos estrangeiros expandiu significativamente nos últimos anos, esse projeto pode tirar proveito desse mercado em crescimento.
-Aliado a isso a plataforma oferece conveniência e benefícios mútuos para compradores e viajantes. 
+Aliado a isso, a plataforma oferece conveniência e benefícios mútuos para compradores e viajantes. 
 Esses entre outros fatores fazem do projeto uma proposta promissora, capaz de preencher uma lacuna relevante no mercado com potencial de crescimento e lucratividade.
 
 
 ## Público-Alvo
 
-O público-alvo desse projeto é qualquer viajante que esteja disposto a trazer uma encomenda do lugar onde irá visitar e qualquer pessoa que deseja comprar algo de fora do seu país, visando encontrar o melhor preço para o produto ou até mesmo um produto que não tenha em seu país local.
+O público-alvo desse projeto é qualquer viajante que esteja disposto a trazer uma encomenda do lugar onde irá visitar no exterior e qualquer pessoa que deseja comprar algo de fora do seu país, visando encontrar o melhor preço para o produto ou até mesmo um produto que não tenha em seu país local.
