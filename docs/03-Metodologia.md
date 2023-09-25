@@ -30,4 +30,4 @@ Para organização e distribuição das tarefas desse projeto, a equipe está ut
 O quadro do Trello está disponível através da URL: [Trello](https://trello.com/b/70zqgLpG/muamba)
 
 ![Tela Trello utilizada pelo grupo](img/Muamba.png)
-Tela Trello utilizada pelo grupo
+*Figura 1 - Tela Trello utilizada pelo grupo*
