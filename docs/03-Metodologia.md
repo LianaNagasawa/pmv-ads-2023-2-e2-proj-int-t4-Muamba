@@ -26,7 +26,7 @@ A equipe está organizada da seguinte maneira:
 | |Douglas Ferreira|
 | Equipe de Designer:|Douglas Ferreira|
 
-Para organização e distribuição das tarefas desse projeto, a equipe está utilizando o Trello, estruturado com Recursos: Backlog, ToDo, Doing, Test, Done e Locked. Com etiquetas: Documentação, Desenvolvimento, Infraestrutura, testes, Gerencia de Projetos. 
+Para organização e distribuição das tarefas desse projeto, a equipe está utilizando o Trello, estruturado com Recursos: Backlog, ToDo, Doing, Test, Done e Locked. Com etiquetas: Documentação, Desenvolvimento, Infraestrutura, testes, Gerenciamento de Projetos. 
 O quadro do Trello está disponível através da URL: [Trello](https://trello.com/b/70zqgLpG/muamba)
 
 ![Tela Trello utilizada pelo grupo](img/Muamba.png)
