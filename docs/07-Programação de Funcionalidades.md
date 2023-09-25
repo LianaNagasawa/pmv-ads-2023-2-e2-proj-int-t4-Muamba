@@ -115,7 +115,7 @@ A tela Como Isso Funciona para Viajante, tem uma breve descrição do funcioname
 
 A tela Como Isso Funciona para comprador, tem uma breve descrição do funcionamento do site para os compradores, o passo-a-passo para iniciar a busca de produtos e o link para iniciar a página “buscar de produtos”.
 
-![Como Funciona para Compradores](img/img/Como_Funciona_Comprador_Fluxo.JPG) 
+![Como Funciona para Compradores](img/Como_Funciona_Comprador_Fluxo.JPG) 
 
 ### Requisitos Atendidos
 1. RF-003
@@ -223,7 +223,7 @@ A tela “Iniciar Negociação” mostra os viajantes encontrados e o link para 
 
 A tela “Anunciar Viagem”, oferece a seleção das informações do local da viagem, e período da viagem. Mostra, ainda, as viagens já anunciadas por esse usuário e o status delas (se já avaliadas/ finalizadas, se se ainda precisa avaliar e a opção de cancelar o anúncio da viagem).
 
-![Anunciar Viagem](img/img/Anunciar_Viagem_Fluxo.JPG)
+![Anunciar Viagem](img/Anunciar_Viagem_Fluxo.JPG)
 
 ### Requisitos Atendidos
 1. RF-014
