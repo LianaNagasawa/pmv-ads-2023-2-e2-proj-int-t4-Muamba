@@ -23,8 +23,15 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 ## Projeto da Base de Dados
 
-Esse é O projeto da base de dados corresponde à representação das entidades e relacionamento.
-![Projeto Banco de Dados](img/Projeto_Banco_de_Dados.jpg)
+Esse é o projeto da base de dados que corresponde à representação das entidades e relacionamento. 
+<br/>Ainda em dúvida nesse tema, o grupo apresenta duas possibilidades nas imagens que seguem:
+
+
+
+![Projeto Banco de Dados](img/Projeto_Banco_Dados_ Muamba1.jpg)
+<br/>*Figura 23 - Projeto Banco de Dados*
+
+![Projeto Banco de Dados](img/Projeto_Banco_Dados_Muamba2.jpg)
 <br/>*Figura 23 - Projeto Banco de Dados*
 
 ## Tecnologias Utilizadas
@@ -33,6 +40,7 @@ Esse é O projeto da base de dados corresponde à representação das entidades 
 - Marvel app
 - Trello
 - GitHub
+- Draw.io
   
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
