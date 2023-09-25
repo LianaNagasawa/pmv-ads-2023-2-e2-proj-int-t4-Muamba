@@ -21,7 +21,7 @@ Existem pessoas que gostam de comprar produtos de fora do país, existem outras 
 O objetivo geral deste trabalho é a criação de um portal de compras, onde os usuários se disponibilizam para comprar determinado produto para outra pessoa durante alguma viagem ao exterior.
 Como objetivos específicos, podemos ressaltar:
 
- - Faciliar o encontro entre viajantes dispostos a trazer encomendas com pessoas que tenham interesse em comprar produtos de fora do país, com intuito de beneficiar os dois lados e ao mesmo tempo estar assegurado pelas avaliações de ususários da plataforma.
+ - Faciliar o encontro entre viajantes dispostos a trazer encomendas com pessoas que tenham interesse em comprar produtos de fora do país, com intuito de beneficiar os dois lados e ao mesmo tempo estar assegurado pelas avaliações de usuários da plataforma.
  
 - Localizar pessoas que estejam interessadas em comprar produtos que não estão disponíveis ou que são muito caros no seu país de origem.
 
