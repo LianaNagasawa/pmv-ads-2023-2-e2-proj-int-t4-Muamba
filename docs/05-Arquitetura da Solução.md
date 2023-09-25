@@ -26,9 +26,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 Esse é o projeto da base de dados que corresponde à representação das entidades e relacionamento. 
 <br/>Ainda em dúvida nesse tema, o grupo apresenta duas possibilidades nas imagens que seguem:
 
-
-
-![Projeto Banco de Dados](img/Projeto_Banco_Dados_ Muamba1.jpg)
+![Projeto Banco de Dados](img/Projeto_Banco_Dados_Muamba1.jpg)
 <br/>*Figura 23 - Projeto Banco de Dados*
 
 ![Projeto Banco de Dados](img/Projeto_Banco_Dados_Muamba2.jpg)
