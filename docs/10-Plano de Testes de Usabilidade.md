@@ -5,5 +5,4 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |ID   | Característica                                                       | Sim  Não  N/A | Comentários                               |
 |-----|----------------------------------------------------------------------|---------------|-------------------------------------------|
 | 1 - Visibilidade do status do sistema                                                                                                  |
-|-----|----------------------------------------------------------------------|---------------|-------------------------------------------|
 | 1.1 | As telas do sistema iniciam com um título que descreve seu conteúdo? |               |                                           |
