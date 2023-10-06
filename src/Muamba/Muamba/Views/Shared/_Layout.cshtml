@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Muamba</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <img class="img_fundo" src="~/img/mapa.jpg" alt="">
+        <img class="logo_header" src="~/img/logo_muamba.JPG" alt="">
+        <nav>
+            <ul class="nav_superior">
+                <li>
+                    <a href="/Produto/AnunciarViagem.cshtml">Anunciar Viagem</a>
+                </li>
+                <li>
+                    <a href="/Produto/BuscarProduto">Buscar Produtos</a>
+                </li>
+                <li>
+                    <a href="/Negociacao/Negociacoes.cshtml">Negociações</a>
+                </li>
+                <li>
+                    <a href="/Negociacao/Avaliacoes.cshtml">Minhas Avaliações</a>
+                </li>
+                <li>
+                    <a class="login" href="/Cadastro/Login.cshtml">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <aside>
+
+        @RenderBody()
+
+
+    </aside>
+    <footer>
+        <ul class="nav_inferior">
+            <li>
+                <a href="/Home/Index.cshtml">Quem Somos</a>
+            </li>
+            <li>
+                <a href="/ComoFunciona/Index.cshtml">Como Isso Funciona?</a>
+            </li>
+            <li>
+                <a href="/ComoFunciona/ComoFuncionaComprador.cshtml">Para Compradores</a>
+            </li>
+            <li>
+                <a href="/ComoFunciona/ComoFuncionaViajante.cshtml">Para Viajantes</a>
+            </li>
+            <li>
+                <a href="/Produto/BuscarProduto.cshtml">Produtos</a>
+            </li>
+            <li>
+                <a href="/Negociacao/Avaliacoes.cshtml">Minhas Avaliações</a>
+            </li>
+            <li>
+                <a href="/Cadastro/Login.cshtml">Login</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="/ComoFunciona/TermosDeUso.cshtml">Termos de Uso</a>
+            </li>
+            <li>
+                <a href="/ComoFunciona/PoliticaDePrivacidade.cshtml">Política de Privacidade</a>
+            </li>
+            <li>
+                <a href="/ComoFunciona/Ajuda.cshtml">Ajuda</a>
+            </li>
+        </ul>
+        <img class="logo_footer" src="~/img/logo_muamba.JPG" alt="">
+
+    </footer>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
