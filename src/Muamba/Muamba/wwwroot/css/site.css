@@ -73,3 +73,13 @@ footer {
     height: 67px;
     float: right;
 }
+
+img { 
+    border-radius: 18px
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
