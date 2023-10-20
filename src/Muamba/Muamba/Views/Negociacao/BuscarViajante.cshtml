@@ -20,10 +20,10 @@
 
     <div>
         <form action="/negociacao/BuscarViajante">
-         <input type="hidden" name="IdProduto" value="@Model.Produto.Id" />
-        <span>Localidade</span>@*Localidade*@
-        <input class="info_busca_produto" type="text" name="localidade" required>
-        <button class="button ">Buscar</button>
+            <input type="hidden" name="IdProduto" value="@Model.Produto.Id" />
+            <span>Localidade</span>@*Localidade*@
+            <input class="info_busca_produto" type="text" name="localidade" required>
+            <button class="button ">Buscar</button>
         </form>
     </div>
 
@@ -34,13 +34,13 @@
         {
             <div class="cards_selecionar_produtos">
                 <form action="/Negociacao/IniciarNegociacao" method="post">
-                <img class="img_cards_selecionar_produtos" src="FotoProduto" /> @*Foto do Usuario*@
-                <span>@item.UsuarioViajante </span>
-                <span>Avaliações</span>
-                <span>@item.Pais</span>
-                <span>@item.DataIda</span>
-                <span>@item.DataVolta</span>
-                    <button class="button" >Chamar para Negociação</button>
+                    <img class="img_cards_selecionar_produtos" src="FotoProduto" /> @*Foto do Usuario*@
+                    <span>@item.UsuarioViajante </span>
+                    <span>Avaliações</span>
+                    <span>@item.Pais</span>
+                    <span>@item.DataIda</span>
+                    <span>@item.DataVolta</span>
+                    <button class="button">Chamar para Negociação</button>
                 </form>
             </div>
         }
