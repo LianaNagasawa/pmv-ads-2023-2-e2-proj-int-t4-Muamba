@@ -1,0 +1,46 @@
+﻿@model BuscaViajanteViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*mostrar o card com o item escolhido e carregar os cards com os viajantes anunciados*@
+
+<div>
+    <h2>Produto Selecionado</h2> @*produto selecionado*@
+    <div class="cards_selecionar_produtos">
+        <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
+        <span>@Model.Produto.Nome </span>
+        <span>@Model.Produto.PalavraChave </span>
+    </div>
+
+
+    <div>
+        <form action="/negociacao/BuscarViajante">
+            <input type="hidden" name="IdProduto" value="@Model.Produto.Id" />
+            <span>Localidade</span>@*Localidade*@
+            <input class="info_busca_produto" type="text" name="localidade" required>
+            <button class="button ">Buscar</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Viajantes Encontrados</h2> @*viajantes encontrados*@
+        <h2>@Model.ResultadoBuscaViajante</h2>
+        @foreach (var item in Model.Viagens)
+        {
+            <div class="cards_selecionar_produtos">
+                <form action="/Negociacao/IniciarNegociacao" method="post">
+                    <img class="img_cards_selecionar_produtos" src="FotoProduto" /> @*Foto do Usuario*@
+                    <span>@item.UsuarioViajante </span>
+                    <span>Avaliações</span>
+                    <span>@item.Pais</span>
+                    <span>@item.DataIda</span>
+                    <span>@item.DataVolta</span>
+                    <button class="button">Chamar para Negociação</button>
+                </form>
+            </div>
+        }
