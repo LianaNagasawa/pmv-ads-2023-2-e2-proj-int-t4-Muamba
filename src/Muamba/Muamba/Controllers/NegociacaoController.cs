@@ -16,11 +16,16 @@ namespace Muamba.Controllers
         {
             return View();
         }
-        public IActionResult IniciarNegociacao()
+
+        [HttpPost]
+        public async Task<IActionResult> ChamarNegociacao(Negociacao negociacao)
         {
-            //fazer amanha
-            return View();
+            _context.Negociacoes.Add(negociacao); //adicionar banco de dados
+            await _context.SaveChangesAsync(); //salvar no banco de dados
+            return RedirectToAction("Negociacoes");
         }
+
+
         public IActionResult Negociacoes()
         {
             return View();
@@ -32,7 +37,7 @@ namespace Muamba.Controllers
 
             if (!string.IsNullOrEmpty(localidade))
             {
-                viagens = _context.Viagens.Where(p => (p.Pais == localidade || p.Provincia == localidade || p.Regiao == localidade)  && p.DataVolta > DateTime.Now.Date).ToList();
+                viagens = _context.Viagens.Where(p => (p.Pais == localidade || p.Provincia == localidade || p.Regiao == localidade) && p.DataVolta > DateTime.Now.Date).ToList();
             }
 
             var buscaViajanteViewModel = new BuscaViajanteViewModel() { Produto = produto, Viagens = viagens };

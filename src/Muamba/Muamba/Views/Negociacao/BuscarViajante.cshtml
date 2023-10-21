@@ -7,33 +7,35 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@*mostrar o card com o item escolhido e carregar os cards com os viajantes anunciados*@
-
 <div>
-    <h2>Produto Selecionado</h2> @*produto selecionado*@
+    <h2>Produto Selecionado</h2> @*Exibir o produto selecionado*@
     <div class="cards_selecionar_produtos">
         <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
         <span>@Model.Produto.Nome </span>
         <span>@Model.Produto.PalavraChave </span>
     </div>
-
+</div>
 
     <div>
         <form action="/negociacao/BuscarViajante">
+            @* Pedir a Localidade*@
             <input type="hidden" name="IdProduto" value="@Model.Produto.Id" />
-            <span>Localidade</span>@*Localidade*@
+            <span>Localidade</span>
             <input class="info_busca_produto" type="text" name="localidade" required>
             <button class="button ">Buscar</button>
         </form>
     </div>
 
     <div>
-        <h2>Viajantes Encontrados</h2> @*viajantes encontrados*@
+        <h2>Viajantes Encontrados</h2> @*Listar viajantes encontrados*@
         <h2>@Model.ResultadoBuscaViajante</h2>
         @foreach (var item in Model.Viagens)
         {
             <div class="cards_selecionar_produtos">
-                <form action="/Negociacao/IniciarNegociacao" method="post">
+            <form action="/Negociacao/ChamarNegociacao" method="post">
+                <input type="hidden" name="ProdutoId" value="@Model.Produto.Id" />
+                <input type="hidden" name="ViagemId" value="@item.Id" />
+                <input type="hidden" name="CompradorId" value="1" />
                     <img class="img_cards_selecionar_produtos" src="FotoProduto" /> @*Foto do Usuario*@
                     <span>@item.UsuarioViajante </span>
                     <span>Avaliações</span>
@@ -44,3 +46,4 @@
                 </form>
             </div>
         }
+    </div>

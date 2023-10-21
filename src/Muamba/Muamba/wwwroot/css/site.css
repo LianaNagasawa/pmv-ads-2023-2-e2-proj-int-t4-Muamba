@@ -118,8 +118,9 @@ span {
     border-radius: 15px;
     width: 800px;
     height: 30px;
-    display:block;
+    display: block;
 }
+
 .info_busca_localidade {
     border: 1px solid #D2EDF8;
     border-radius: 15px;
@@ -144,10 +145,12 @@ span {
     display: inline-grid;
     align-content: space-around;
 }
+
 .img_cards_selecionar_produtos {
     width: 100px;
     height: 100px;
 }
+
 button {
     position: relative;
     color: white;
@@ -170,6 +173,7 @@ button {
     text-align: center;
     position: relative;
 }
+
 h3 {
     color: #050505;
     font-family: cursive;
@@ -180,3 +184,28 @@ h3 {
     position: relative;
 }
 
+.avaliacao{
+    display:flex;
+}
+
+.star-icon {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #FFE500;
+}
+
+    .star-icon::before {
+        content: "\2605"; /*cheio*/
+    }
+
+.star-icon.ativo ~ .star-icon::before{
+    content:"\2606"; /*vazio*/
+}
+
+.avaliacao:hover ~.star-icon::before{
+    content:"\2605"; /*cheio*/
+}
+.star-icon:hover ~ .star-icon::before {
+    content: "\2606"; /*vazio*/
+}
