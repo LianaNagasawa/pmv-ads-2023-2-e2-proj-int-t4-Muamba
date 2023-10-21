@@ -63,7 +63,8 @@ namespace MuambaS.Controllers
                 };
                 await HttpContext.SignInAsync(principal, props);
                 return Redirect("/");
-            } else
+            } 
+            else
             {
                 ViewBag.Message = "Usuário e/ou senha inválidos!";
             }
@@ -152,12 +153,14 @@ namespace MuambaS.Controllers
                     usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
-                } catch (DbUpdateConcurrencyException)
+                } 
+                catch (DbUpdateConcurrencyException)
                 {
                     if (!UsuarioExists(usuario.Cpf))
                     {
                         return NotFound();
-                    } else
+                    } 
+                    else
                     {
                         throw;
                     }
