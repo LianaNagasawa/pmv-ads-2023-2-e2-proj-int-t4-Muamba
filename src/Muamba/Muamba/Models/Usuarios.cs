@@ -8,9 +8,10 @@ namespace SiteMuamba.Models
     public class Usuario
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Favor informar o cpf.")]
-        public string Cpf { get; set; }
+        public long Cpf { get; set; }
 
         [Required(ErrorMessage = "Favor informar o nome.")]
         public string Nome { get; set; }

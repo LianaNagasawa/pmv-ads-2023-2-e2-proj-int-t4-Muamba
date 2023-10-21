@@ -86,7 +86,7 @@ namespace MuambaS.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Cpf == id);
+                .FirstOrDefaultAsync(m => m.Cpf == long.Parse(id));
             if (usuario == null)
             {
                 return NotFound();
@@ -141,7 +141,7 @@ namespace MuambaS.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Cpf,Nome,Email,Senha,DataNasc,Cidade,Estado,Telefone,Foto")] Usuario usuario)
         {
-            if (id != usuario.Cpf)
+            if (long.Parse(id) != usuario.Cpf)
             {
                 return NotFound();
             }
@@ -179,7 +179,7 @@ namespace MuambaS.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Cpf == id);
+                .FirstOrDefaultAsync(m => m.Cpf == long.Parse(id));
             if (usuario == null)
             {
                 return NotFound();
@@ -207,7 +207,7 @@ namespace MuambaS.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UsuarioExists(string id)
+        private bool UsuarioExists(long id)
         {
             return (_context.Usuarios?.Any(e => e.Cpf == id)).GetValueOrDefault();
         }

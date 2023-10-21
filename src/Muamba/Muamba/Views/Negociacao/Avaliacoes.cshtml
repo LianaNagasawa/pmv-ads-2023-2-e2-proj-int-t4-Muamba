@@ -1,5 +1,67 @@
-﻿@*
+﻿
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
+
+<div>
+    <h2>Avaliações</h2>
+    <span>Esperamos que tenha ocorido tudo como planejado, chegou o momento de nos contar como foi sua negociação...</span>
+</div>
+
+<div>
+    <h3>Como Viajante</h3>
+    @*card Produto*@
+    @*card Comprador*@
+    <div>
+        <p> Critérios para Avaliação</p>
+        <div class="cards_selecionar_produtos">
+            <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
+            <span>@Model.Produto.Nome </span>
+            <span>@Model.Produto.PalavraChave </span>
+        </div>
+        <div>
+            <div class="cards_selecionar_produtos">
+                <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
+                <span>@Model.Viagens.UsuarioViajante </span>
+                <span>@Model.Viagens.Pais </span>
+            </div>
+
+
+            <span>O comprador pagou conforme vocês combinaram?</span> <br>
+            <span>O comprador foi gentil e educado durante a negociação?</span> <br>
+            <span>O comprador respondeu rapidamente suas dúvidas?</span>
+            <ul class="avaliacao" ">
+                <li class="star-icon" avaliacao="1"></li>
+                <li class="star-icon" avaliacao="2"></li>
+                <li class="star-icon" avaliacao="3"></li>
+                <li class="star-icon" avaliacao="4"></li>
+                <li class="star-icon" avaliacao="5"></li>
+            </ul>
+            <button>Enviar Avaliação</button>
+        </div>
+
+    </div>
+
+    <div>
+        <h3>Como Comprador</h3>
+        @*card Produto*@
+        @*card Comprador*@
+        <div>
+            <p> Critérios para Avaliação</p>
+            <span>O Viajante te entregou o produto solicitado?</span><br>
+            <span>O Viajante respondeu rapidamente?</span><br>
+            <span>O Viajante foi gentil e educado durante a negociação?</span>
+            <ul class="avaliacao" ">
+                <li class="star-icon" avaliacao="1"></li>
+                <li class="star-icon" avaliacao="2"></li>
+                <li class="star-icon" avaliacao="3"></li>
+                <li class="star-icon" avaliacao="4"></li>
+                <li class="star-icon" avaliacao="5"></li>
+            </ul>
+
+            <button>Enviar Avaliação</button>
+        </div>
+    </div>
+
