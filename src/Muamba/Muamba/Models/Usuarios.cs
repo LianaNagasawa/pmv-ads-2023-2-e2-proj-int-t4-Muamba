@@ -8,9 +8,9 @@ namespace SiteMuamba.Models
     public class Usuario
     {
         [Key]
-        public int Id { get; set; }
-
-        public long Cpf { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Required(ErrorMessage = "Favor informar o cpf.")]
+        public string Cpf { get; set; }
 
         [Required(ErrorMessage = "Favor informar o nome.")]
         public string Nome { get; set; }
@@ -37,13 +37,5 @@ namespace SiteMuamba.Models
 
         [Required(ErrorMessage = "Favor adicionar uma foto.")]
         public string Foto { get; set; }
-
-        public Perfil Perfil { get; set; }
-    }
-
-    public enum Perfil
-    {
-        Viajante,
-        Comprador
     }
 }
