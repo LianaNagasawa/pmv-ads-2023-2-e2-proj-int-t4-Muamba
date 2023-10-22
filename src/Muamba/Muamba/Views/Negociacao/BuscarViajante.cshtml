@@ -35,7 +35,7 @@
             <form action="/Negociacao/ChamarNegociacao" method="post">
                 <input type="hidden" name="ProdutoId" value="@Model.Produto.Id" />
                 <input type="hidden" name="ViagemId" value="@item.Id" />
-                <input type="hidden" name="CompradorId" value="1" />
+                <input type="hidden" name="CompradorId" value="@Model.UsuarioId" />
                     <img class="img_cards_selecionar_produtos" src="FotoProduto" /> @*Foto do Usuario*@
                     <span>@item.UsuarioViajante </span>
                     <span>Avaliações</span>
