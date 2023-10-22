@@ -4,12 +4,13 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SiteMuamba.Models;
 
-namespace MuambaS.Controllers
+namespace Muamba.Controllers
 {
     public class UsuariosController : Controller
     {
@@ -36,7 +37,7 @@ namespace MuambaS.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            var dados = await _context.Usuarios.FindAsync(usuario.Cpf);
+            var dados = await _context.Usuarios.Where(u => u.Cpf == usuario.Cpf).FirstOrDefaultAsync();
             if (dados == null)
             {
                 ViewBag.Message = "E-mail e/ou senha inválidos!";
@@ -48,11 +49,12 @@ namespace MuambaS.Controllers
             {
                 var claims = new List<Claim>
                 {
+                    new Claim(ClaimTypes.PrimarySid,dados.Id.ToString()),
                     new Claim(ClaimTypes.Name, dados.Nome),
                     new Claim(ClaimTypes.NameIdentifier, dados.Nome.ToString()),
                     new Claim(ClaimTypes.Role, dados.Nome.ToString())
                 };
-                var usuarioIdentity = new ClaimsIdentity(claims, "Login");
+                var usuarioIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
 
                 var props = new AuthenticationProperties
@@ -61,7 +63,14 @@ namespace MuambaS.Controllers
                     ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
                     IsPersistent = true,
                 };
-                await HttpContext.SignInAsync(principal, props);
+                //await HttpContext.SignInAsync(principal, props);
+                await HttpContext.SignInAsync(
+                                                CookieAuthenticationDefaults.AuthenticationScheme,
+                                                principal,
+                                                new AuthenticationProperties
+                                                                            {
+                                                                                IsPersistent = true
+                                                                            });
                 return Redirect("/");
             } 
             else

@@ -1,12 +1,14 @@
-﻿
+﻿@model AvaliacoesViewModel
+
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div>
-    <h2>Avaliações</h2>
+    <h2>Avaliações Pendentes</h2>
     <span>Esperamos que tenha ocorido tudo como planejado, chegou o momento de nos contar como foi sua negociação...</span>
 </div>
 
@@ -14,25 +16,23 @@
     <h3>Como Viajante</h3>
     @*card Produto*@
     @*card Comprador*@
-    <div>
-        <p> Critérios para Avaliação</p>
-        <div class="cards_selecionar_produtos">
-            <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
-            <span>@Model.Produto.Nome </span>
-            <span>@Model.Produto.PalavraChave </span>
-        </div>
+    @foreach (var item in Model.NegociacoesComprador)
+    {
         <div>
+            <p> Critérios para Avaliação</p>
             <div class="cards_selecionar_produtos">
-                <img class="img_cards_selecionar_produtos" src="@Model.Produto.FotoProduto" />
-                <span>@Model.Viagens.UsuarioViajante </span>
-                <span>@Model.Viagens.Pais </span>
+                <img class="img_cards_selecionar_produtos" src="@item.Produto.FotoProduto" />
+                <span>@item.Produto.Nome </span>
             </div>
-
-
-            <span>O comprador pagou conforme vocês combinaram?</span> <br>
-            <span>O comprador foi gentil e educado durante a negociação?</span> <br>
-            <span>O comprador respondeu rapidamente suas dúvidas?</span>
-            <ul class="avaliacao" ">
+            <div>
+                <div class="cards_selecionar_produtos">
+                    <span>@item.Comprador.Nome </span>
+                </div>
+            </div>
+            <span>O Comprador fez o pagamento do produto solicitado?</span><br>
+            <span>O Comprador te respondeu rapidamente?</span><br>
+            <span>O Comprador foi gentil e educado durante a negociação?</span>
+            <ul class="avaliacao">
                 <li class="star-icon" avaliacao="1"></li>
                 <li class="star-icon" avaliacao="2"></li>
                 <li class="star-icon" avaliacao="3"></li>
@@ -41,27 +41,39 @@
             </ul>
             <button>Enviar Avaliação</button>
         </div>
+    }
+</div>
 
-    </div>
-
-    <div>
-        <h3>Como Comprador</h3>
-        @*card Produto*@
-        @*card Comprador*@
+<div>
+    <h3>Como Comprador</h3>
+    @*card Produto*@
+    @*card viajante*@
+    @foreach (var item in Model.NegociacoesViajantes)
+    {
         <div>
             <p> Critérios para Avaliação</p>
+            <div class="cards_selecionar_produtos">
+                <img class="img_cards_selecionar_produtos" src="@item.Produto.FotoProduto" />
+                <span>@item.Produto.Nome </span>
+            </div>
+            <div>
+                <div class="cards_selecionar_produtos">
+                    <span>@item.Viagem.UsuarioViajante.Nome </span>
+                    <span>@item.Viagem.Pais</span>
+                </div>
+            </div>
             <span>O Viajante te entregou o produto solicitado?</span><br>
             <span>O Viajante respondeu rapidamente?</span><br>
             <span>O Viajante foi gentil e educado durante a negociação?</span>
-            <ul class="avaliacao" ">
+            <ul class="avaliacao">
                 <li class="star-icon" avaliacao="1"></li>
                 <li class="star-icon" avaliacao="2"></li>
                 <li class="star-icon" avaliacao="3"></li>
                 <li class="star-icon" avaliacao="4"></li>
                 <li class="star-icon" avaliacao="5"></li>
             </ul>
-
             <button>Enviar Avaliação</button>
         </div>
-    </div>
+    }
+</div>
 
