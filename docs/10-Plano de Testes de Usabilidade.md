@@ -48,3 +48,11 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 | 10.1 | As instruções online estão visualmente distintas?                                             |    SIM           |                                                        |
 | 10.2 | Existe ajuda online sensível ao contexto?                                                     |     SIM          |                                                        |
 | 10.3 | É simples o acesso a ajuda do sistema e o retorno ao sistema?                                 |      SIM         |                                                        |
+
+
+
+Registro de testes dinâmico.
+
+|Atividade a ser realizada     | Feedback do usuário                     | Considerações (quais os problemas, deficiências, limitações       | Sugestão de melhorias                 |
+|------------------------------|-----------------------------------------|-------------------------------------------------------------------|---------------------------------------|
+|Após realizar o cadastro, a pessoa buscou um produto que não estava disponível |-----------------------------------------|-------------------------------------------------------------------|---------------------------------------|
