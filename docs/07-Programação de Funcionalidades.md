@@ -23,7 +23,7 @@ RF-014 <br>
 ![Home-Page](img/HomePage1.JPG) 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Login
@@ -42,7 +42,7 @@ RF-005
 ![Login](img/EstruturaDadosLogin.JPG)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Cadastro 
@@ -62,7 +62,7 @@ RF-05 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -86,7 +86,7 @@ RF-014 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
  
 
@@ -106,7 +106,7 @@ RF-014
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -128,7 +128,7 @@ RF-011 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -150,7 +150,7 @@ RF-011 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -172,7 +172,7 @@ RF-006 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -194,7 +194,7 @@ RF-013 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -214,7 +214,7 @@ RF-011
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -233,7 +233,7 @@ RF-014
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -253,7 +253,7 @@ RF-010 <br>
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL do domínio.
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
