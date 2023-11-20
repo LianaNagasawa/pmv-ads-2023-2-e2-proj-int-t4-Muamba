@@ -21,7 +21,7 @@
 
 | Caso de Teste 	| CT-03– Página de Cadastro de Produtos |
 |:---:	|:---:	|
-|Requisito Associado | RF-08- O site deve permitir cadastrar produtos (imagens e descrições). |
+|Requisito Associado | **RF-08**- O site deve permitir cadastrar produtos (imagens e descrições). |
 | Objetivo do Teste 	| Cadastrar produtos que não estejam previamente disponíveis. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de busca de produtos <br> - Rolar a página até a seção "Não conseguiu localizar o produto?" <br> - Clicar em "Cadastrar Produto" <br> - Selecione a categoria do seu produto <br> - Insira até 10 palavras-chave <br> - Insira uma imagem do produto <br> - Clique em Cadastrar esse produto <br> - Receba uma mensagem de confirmação |
 |Critério de Êxito | - Todos os botões devem ser clicáveis <br> - O botão Cadastrar esse produto deve estar inativo até que  todos os campos estejam preenchidos <br> - Há mensagem de confirmação sobre o envio e também sobre a falta de algum campo mandatório. |
@@ -41,7 +41,7 @@
 
 | Caso de Teste 	| CT-05– Viajante cadastrando a próxima viagem |
 |:---:	|:---:	|
-|Requisito Associado | RF-14 - O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.|
+|Requisito Associado | **RF-14** - O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.|
 | Objetivo do Teste 	| Usuário viajantes cadastrando a próxima viagem. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a opção Anunciar viagem <br> - Preencher todo o formulário <br> - Clicar em Anunciar Viagem <br>
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta). - Terá uma seção com histórico de viagens <br> - Opção de avaliar comprador, caso ainda existam pendências de viagens feitas previamente|
@@ -51,7 +51,7 @@
 
 | Caso de Teste 	| CT-06 – Comprador escolhendo viajante |
 |:---:	|:---:	|
-|Requisito Associado | RF-11 - O site deve permitir ao usuário comprador, escolher o viajante e iniciar a negociação.|
+|Requisito Associado | **RF-11** - O site deve permitir ao usuário comprador, escolher o viajante e iniciar a negociação.|
 | Objetivo do Teste 	| Comprador consegue escolher o viajante que se encaixa em suas necessidades. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para busca de produtos <br> - Selecionar um produto <br> - Verificar os viajantes disponíveis que se encaixem na necessidade do comprados.|
 |Critério de Êxito | - Todos os botões devem ser clicáveis <br> - O comprador terá cards com todos os viajantes disponíveis que atendam os requerimentos dele. |
