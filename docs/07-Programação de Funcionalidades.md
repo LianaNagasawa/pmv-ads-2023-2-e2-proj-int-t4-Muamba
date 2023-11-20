@@ -23,7 +23,7 @@ RF-014
 ![Home-Page](img/HomePage1.JPG) 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Login
@@ -42,7 +42,7 @@ A tela “Login”, solicita e-mail e senha para o usuário efetuar o login e ai
 ![Login](img/EstruturaDadosLogin.JPG)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Cadastro 
@@ -56,13 +56,13 @@ A tela “Cadastro”, possui campos para o envio de informações necessárias 
 2. RF-05
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -80,13 +80,13 @@ A tela “Como Isso Funciona” tem uma breve descrição do funcionamento do si
 5. RF-014
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
  
 
@@ -100,19 +100,19 @@ A tela Como Isso Funciona para Viajante, tem uma breve descrição do funcioname
 1. RF-014
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
 ## Página Como Funciona Para Compradores
 
-A tela Como Isso Funciona para comprador, tem uma breve descrição do funcionamento do site para os compradores, o passo-a-passo para iniciar a busca de produtos e o link para iniciar a página “buscar de produtos”.
+A tela Como Isso Funciona para comprador tem uma breve descrição do funcionamento do site para os compradores, o passo-a-passo para iniciar a busca de produtos e o link para iniciar a página “buscar de produtos”.
 
 ![Como Funciona para Compradores](img/Como_Funciona_Comprador_Fluxo.JPG) 
 
@@ -122,13 +122,13 @@ A tela Como Isso Funciona para comprador, tem uma breve descrição do funcionam
 3. RF-011
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -144,13 +144,13 @@ A tela “Buscar Produtos” oferece seleção de categoria e a inserção de at
 3. RF-011
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -166,13 +166,13 @@ A tela “Cadastro de Produto” oferece seleção de categoria, a inserção de
 3. RF-006
 
 ### Artefatos da funcionalidade
-1. a desenvolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -188,13 +188,13 @@ A tela “Negociações” mostra todas as ofertas de negociações recebidas pa
 3. RF-013
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -208,13 +208,13 @@ A tela “Iniciar Negociação” mostra os viajantes encontrados e o link para 
 1. RF-011
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
    
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -228,13 +228,12 @@ A tela “Anunciar Viagem”, oferece a seleção das informações do local da 
 1. RF-014
 
 ### Artefatos da funcionalidade
-1. a desenvolver
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -249,13 +248,12 @@ A tela “Avaliações” mostra todas as negociações avaliadas ou pendentes d
 2. RF-010
 
 ### Artefatos da funcionalidade
-1. a desenvolver
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+1. Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
