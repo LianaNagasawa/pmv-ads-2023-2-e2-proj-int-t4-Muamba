@@ -16,11 +16,6 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 ![Modelo de Entidade de Relacionamento](img/DiagramaEntidadeRelacionamento.jpeg)
 <br/>*Figura 21 - Projeto Conceitual Entidades de Relacionamento*
 
-## Diagrama de Componentes
-
-![Diagrama de Componentes](img/diagramadecomponentes.png)
-<br/>*Figura 22 - Diagrama de Compenentes*
-
 ## Projeto da Base de Dados
 
 Esse é o projeto da base de dados que corresponde à representação das entidades e relacionamento. 
