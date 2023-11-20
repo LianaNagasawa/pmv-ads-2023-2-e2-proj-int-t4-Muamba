@@ -6,8 +6,8 @@
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação e incluir uma foto ao finalizar o cadastro. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br> - Clicar em "Login" <br> - E escolher a opção _Quero me cadastrar_. - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha, cidade e estado) e carregar uma foto <br> - Clicar em "Enviar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|Resultado Obtido | Não implementado totalmente ainda    |
-|Avaliação |   |
+|Resultado Obtido | O site permite que o usuário insira todas as informações requeridas e mandatórias. Permite que finalize o cadastro.  |
+|Avaliação | APROVADO |
 
 
 | Caso de Teste 	| CT-02 – Página de Buscar Produtos |
@@ -35,8 +35,8 @@
 | Objetivo do Teste 	| Checar novos produtos sendo cadastrados no site |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de produtos e realizar um novo cadastro de produto. - Verificar se o Admin foi propriamente notificado. - Aceitar o produto - Fazer o mesmo processo e recusar o produto. - Logar como usuário comprador. - Verificar se a mensagem de aceita ou recusa foi propriamente recebida |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - Ao receber uma notificação o admin deve receber todo o formulário previamente preenchido. - O admin tem a possibilidade de recusar ou aceitar. - O usuário comprador recebe a mensagem avisando sobre a decisão do admin. |
-|Resultado Obtido | Não implementado ainda  |
-|Avaliação | -  |
+|Resultado Obtido | Todos os Critérios passaram exceto como o usuário receberá o aviso da decisão do administrador |
+|Avaliação | Parcialmente aprovado |
 
 
 | Caso de Teste 	| CT-05– Viajante cadastrando a próxima viagem |
@@ -44,9 +44,9 @@
 |Requisito Associado | RF-14 - O site deve permitir ao usuário viajante, cadastrar suas próximas viagens.|
 | Objetivo do Teste 	| Usuário viajantes cadastrando a próxima viagem |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a opção Anunciar viagem. - Preencher todo o formulário. - Clicar em Anunciar Viagem. |
-|Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta). - Teráuma seção com histórico de viagens. - Opção de avaliar comprador caso não tenha ainda o feito em viagens passadas |
-|Resultado Obtido | Não implementado ainda.   |
-|Avaliação | -  |
+|Critério de Êxito | - Todos os botões devem ser clicáveis. - O botão de Anunciar Viagem ficará disponível após todo o formulário estar preenchido (Selecionar região, país, cidade, período da viagem sendo ida e volta). - Terá uma seção com histórico de viagens. - Opção de avaliar comprador, caso ainda existam pendências de viagens feitas previamente |
+|Resultado Obtido | Páginas implementada com todos os requisitos. Dados e opções disponíveis como concordo nos planos de implementação|
+|Avaliação | APROVADO  |
 
 
 | Caso de Teste 	| CT-06 – Comprador escolhendo viajante |
@@ -65,8 +65,8 @@
 | Objetivo do Teste 	| Comunicação entre comprador e viajante  |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Após escolher o produto e o viajante, o viajante será notificado - O viajante aceitará ou não a negociação - Se ele aceitar, o viajante entra em contato direto com comprador |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - Há mensagens de aviso em todas as etapas - O viajante e o comprador tem acesso a aba Negociações - Ambos conseguem se comunicar após aprovação mútua - Página de análise de ofertas possui opção para Aceitar ou Recusar negociação - Página como comprador mostra as chamadas de negociações do comprador com mensagens - Aceito / Recusado / Pendente |
-|Resultado Obtido | Não implementado ainda  |
-|Avaliação | -  |
+|Resultado Obtido | Todos os Critérios passaram exceto as mensagens de aviso  |
+|Avaliação | Parcialmente aprovado |
 
 
 | Caso de Teste 	| CT-08 – Avaliando o comprador e o viajante |
@@ -75,6 +75,6 @@
 | Objetivo do Teste 	| Avaliação do comprador e do viajante  |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir até Minhas Avaliações - Clicar na negociação feita e finalizada - Responder todas as questões mandatórias - Clicar em Enviar Avaliação |
 |Critério de Êxito | - Todos os botões devem ser clicáveis. - Há mensagens de aviso em todas as etapas - O botão de Enviar Avaliação deve ficar disponível APÓS avaliação de todos os pontos requeridos - Mensagem avisando aos usuários a importância de tal avaliação para permanecimento no site |
-|Resultado Obtido | Não implementado ainda  |
-|Avaliação | -  |
+|Resultado Obtido | Todos os Critérios passaram exceto as mensagens de aviso  |
+|Avaliação | Parcialmente aprovado |
 
