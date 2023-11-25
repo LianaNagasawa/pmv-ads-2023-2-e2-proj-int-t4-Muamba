@@ -17,14 +17,13 @@ RF-013
 RF-014
 
 ### Artefatos da funcionalidade
-1. a desenvolver
+![Home-Page](img/EstruturaDadosHomePage.JPG) 
 
 ### Estrutura de Dados
-
+![Home-Page](img/HomePage1.JPG) 
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
-
 
 
 ## Página De Login
@@ -37,10 +36,10 @@ A tela “Login”, solicita e-mail e senha para o usuário efetuar o login e ai
 1. RF-005
 
 ### Artefatos da funcionalidade
-1. a desenvolver
+![Login](img/Login_Fluxo.JPG)
 
 ### Estrutura de Dados
-
+![Login](img/EstruturaDadosLogin.JPG)
 
 ### Instruções de Acesso
 1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
