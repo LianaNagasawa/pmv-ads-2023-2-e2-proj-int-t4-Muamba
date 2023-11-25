@@ -1,0 +1,50 @@
+﻿@model AnuncViagemViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Anunciar Viagem</h3>
+<span class="texto2">Selecione a Região</span>
+<form action="/Negociacao/Anunciar" method="post" enctype="multipart/form-data">
+    <div class="categoria">
+        <input class="categoria-input" type="radio" name="Regiao" id="Regiao" value="Américas"> Américas
+        <input class="categoria-input" type="radio" name="Regiao" id="Regiao" value="Ásia"> Ásia
+        <input class="categoria-input" type="radio" name="Regiao" id="Regiao" value="Europa"> Europa
+        <input class="categoria-input" type="radio" name="Regiao" id="Regiao" value="Africa"> Africa
+        <input class="categoria-input" type="radio" name="Regiao" id="Regiao" value="Oceania"> Oceania
+    </div>
+
+    <div class="palavra-chave">
+        <span class="texto2">Informe o País</span>
+        <input class="info_busca_produto" type="text" name="Pais" required>
+    </div>
+
+    <div class="palavra-chave">
+        <span class="texto2">Cidade - Estado (Província)</span>
+        <input class="info_busca_produto" type="text" name="Provincia">
+    </div>
+
+    <div class="palavra-chave">
+        <span class="texto2">Período da viagem</span>
+        <input class="info_busca_produto" type="date" name="DataIda" required>
+        <input class="info_busca_produto" type="date" name="DataVolta" required>
+    </div>
+
+    <button class="button ">Anunciar Viagem</button>
+
+
+</form>
+
+<h3>Viagens Anunciadas</h3>
+@foreach (var item in Model.viagens)
+{
+    <div class="cards">
+        <img class="img_cards" src="/img/mapa.jpg" />
+        <span class="texto2"><b>Data Ida:</b> @item.DataIda.ToString("dd/MM/yyyy") </span>
+        <span class="texto2"><b>Data Volta:</b> @item.DataVolta.ToString("dd/MM/yyyy") </span>
+        <span class="texto2"><b>País:</b> @item.Pais </span>
+
+    </div>
+}

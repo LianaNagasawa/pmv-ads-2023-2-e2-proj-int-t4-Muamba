@@ -6,28 +6,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Buscando Produto</h1>
-<span>Selecione a categoria do Produto</span>
+<h3>Buscando Produto</h3>
+<span class="texto2">Selecione a categoria do Produto</span>
 <form action="/Produto/BuscarProduto" method="get">
 
     <div class="categoria">
         @foreach (var categoria in Model.Categorias)
         {
-            <input type="radio" name="categoria" id="categoria" value="@categoria.Id">
+            <input class="categoria-input" type="radio" name="categoria" id="categoria" value="@categoria.Id">
             @categoria.Nome
         }
-
     </div>
 
     <div class="palavra-chave">
-
-
-        <span>Palavras-Chave</span>
+        <span class="texto2">Palavras-Chave</span>
         <input class="info_busca_produto" type="text" name="palavrachave" required>
-
-
-        <button class="button ">Buscar</button>
-
+        <button class="button">Buscar</button>
     </div>
 </form>
 
@@ -37,16 +31,16 @@
     @foreach (var item in Model.Produtos)
     {
 
-        <div class="cards_selecionar_produtos">
-            <img class="img_cards_selecionar_produtos" src="@item.FotoProduto" />
-            <span>@item.Nome </span>
-            <span>@item.PalavraChave </span>
+        <div class="cards">
+            <img class="img_cards" src="/img/imagem_teste.jpg" />
+            <span class="texto2">@item.Nome </span>
+            <span class="texto2">@item.PalavraChave </span>
             <a href="/Negociacao/BuscarViajante?IdProduto=@item.Id">Selecionar Produto</a>
         </div>
     }
 
 </div>
 <div class="produto_nao_encontrado">
-    <h2>Não conseguiu localizar o produto?  Você pode cadastrar o produto clicando no link abaixo:</h2>
-    <a href="/Produto/CadastrarProduto">Cadastrar um Produto</a>
+    <h3>Não conseguiu localizar o produto?  Você pode cadastrar o produto clicando no link abaixo:</h3>
+    <a class="button" href="/Produto/CadastrarProduto">Cadastrar um Produto</a>
 </div>

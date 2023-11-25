@@ -13,3 +13,10 @@ document.addEventListener("click", function (e) {
         classStar.add("ativo");
     }
 });
+
+
+
+function Avaliar(estrela, Id) {
+
+    document.getElementById(Id).value = estrela;
+}

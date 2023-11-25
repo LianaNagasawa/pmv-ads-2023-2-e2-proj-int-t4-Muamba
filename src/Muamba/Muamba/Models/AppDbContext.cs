@@ -34,6 +34,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Negociacao>().Navigation(n => n.Viagem).AutoInclude(true);
         modelBuilder.Entity<Negociacao>().Navigation(n => n.Comprador).AutoInclude(true);
         modelBuilder.Entity<Viagem>().Navigation(v => v.UsuarioViajante).AutoInclude(true);
+        modelBuilder.Entity<Avaliacao>().Navigation(n => n.Negociacao).AutoInclude(true);
     }
 }
 

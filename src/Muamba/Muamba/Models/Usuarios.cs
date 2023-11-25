@@ -38,5 +38,8 @@ namespace SiteMuamba.Models
 
         [Required(ErrorMessage = "Favor adicionar uma foto.")]
         public string Foto { get; set; }
+
+        public int? MediaAvaliacao { get; set; }
     }
 }
+

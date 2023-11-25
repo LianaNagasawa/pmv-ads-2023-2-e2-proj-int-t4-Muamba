@@ -6,8 +6,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Solicitar o cadastro de um produto</h1>
-<span>Selecione a categoria do Produto</span>
+<h3>Solicitar o cadastro de um produto</h3>
+<span class="texto2">Selecione a categoria do Produto</span>
 
 <form action="/Produto/SalvarProduto" method="post" enctype="multipart/form-data">
 
@@ -19,18 +19,18 @@
         }
     </div>
        <div class="">
-        <span>Nome do Produto</span>
+        <span class="texto2">Nome do Produto</span>
         <input class="info_busca_produto" type="text" name="Nome" required>
     </div>
 
 
     <div class="palavra-chave">
-        <span>Palavras-Chave</span>
+        <span class="texto2">Palavras-Chave</span>
         <input class="info_busca_produto" type="text" name="PalavraChave" required>
     </div>
 
     <div>
-        <span>Selecione a Imagem do Produto</span>
+        <span class="texto2">Selecione a Imagem do Produto</span><br />
         <input type="file" name="File" required />
       
     </div>

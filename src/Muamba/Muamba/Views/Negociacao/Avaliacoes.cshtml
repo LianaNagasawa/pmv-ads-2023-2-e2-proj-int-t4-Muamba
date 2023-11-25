@@ -7,73 +7,155 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div>
-    <h2>Avaliações Pendentes</h2>
-    <span>Esperamos que tenha ocorido tudo como planejado, chegou o momento de nos contar como foi sua negociação...</span>
-</div>
+<h3>Avaliações Pendentes</h3>
+<span class="texto1">Esperamos que tenha ocorrido tudo como planejado, chegou o momento de nos contar como foi sua negociação...</span>
 
-<div>
-    <h3>Como Viajante</h3>
-    @*card Produto*@
-    @*card Comprador*@
-    @foreach (var item in Model.NegociacoesComprador)
-    {
-        <div>
-            <p> Critérios para Avaliação</p>
-            <div class="cards_selecionar_produtos">
-                <img class="img_cards_selecionar_produtos" src="@item.Produto.FotoProduto" />
+<p class="texto3"> Critérios para Avaliação</p>
+<div class="linha">
+
+    <div class="coluna-50">
+        <span class="texto2">O Comprador fez o pagamento do produto solicitado?</span>
+        <br>
+        <span class="texto2">O Comprador te respondeu rapidamente?</span>
+        <br>
+        <span class="texto2">O Comprador foi gentil e educado durante a negociação?</span>
+        <br>
+    </div>
+
+    <div class="coluna-50">
+        <span class="texto2">O Viajante te entregou o produto solicitado?</span>
+        <br>
+        <span class="texto2">O Viajante respondeu rapidamente?</span>
+        <br>
+        <span class="texto2">O Viajante foi gentil e educado durante a negociação?</span>
+        <br>
+    </div>
+</div>
+<div class="linha">
+    <div class="coluna-50">
+        <h4>Como Viajante</h4>
+        @foreach (var item in Model.NegociacoesViajante)
+        {
+            @*card Produto*@
+            <div class="cards">
+                <img class="img_cards" src="@item.Produto.FotoProduto" />
                 <span>@item.Produto.Nome </span>
             </div>
-            <div>
-                <div class="cards_selecionar_produtos">
-                    <span>@item.Comprador.Nome </span>
-                </div>
-            </div>
-            <span>O Comprador fez o pagamento do produto solicitado?</span><br>
-            <span>O Comprador te respondeu rapidamente?</span><br>
-            <span>O Comprador foi gentil e educado durante a negociação?</span>
-            <ul class="avaliacao">
-                <li class="star-icon" avaliacao="1"></li>
-                <li class="star-icon" avaliacao="2"></li>
-                <li class="star-icon" avaliacao="3"></li>
-                <li class="star-icon" avaliacao="4"></li>
-                <li class="star-icon" avaliacao="5"></li>
-            </ul>
-            <button>Enviar Avaliação</button>
-        </div>
-    }
-</div>
 
-<div>
-    <h3>Como Comprador</h3>
-    @*card Produto*@
-    @*card viajante*@
-    @foreach (var item in Model.NegociacoesViajantes)
-    {
-        <div>
-            <p> Critérios para Avaliação</p>
-            <div class="cards_selecionar_produtos">
-                <img class="img_cards_selecionar_produtos" src="@item.Produto.FotoProduto" />
-                <span>@item.Produto.Nome </span>
+            @*card Comprador*@
+            <div class="cards">
+                <span>@item.Comprador.Nome </span>
             </div>
+            <form action="/Negociacao/EnviarAvaliacaoComprador" method="post">
+                <input id="NegociacaoId" name="NegociacaoId" type="hidden" value="@item.Id">
+                <input id="NotaComprador" name="NotaComprador" type="hidden" value="5">
+                <ul class="avaliacao">
+                    <li class="star-icon" onclick="Avaliar('1','NotaComprador')"></li>
+                    <li class="star-icon" onclick="Avaliar('2','NotaComprador')"></li>
+                    <li class="star-icon" onclick="Avaliar('3','NotaComprador')"></li>
+                    <li class="star-icon" onclick="Avaliar('4','NotaComprador')"></li>
+                    <li class="star-icon" onclick="Avaliar('5','NotaComprador')"></li>
+                </ul>
+                <button>Enviar Avaliação</button>
+            </form>
+
+        }
+
+    </div>
+    <div class="coluna-50">
+        <h4>Como Comprador</h4>
+
+        @foreach (var item in Model.NegociacoesComprador)
+        {
             <div>
-                <div class="cards_selecionar_produtos">
-                    <span>@item.Viagem.UsuarioViajante.Nome </span>
-                    <span>@item.Viagem.Pais</span>
+
+                @*card Produto*@
+                <div class="cards-2">
+                    <img class="img_cards" src="/img/imagem_teste.jpg" />
+                    <span class="texto2"><b>Produto:</b> @item.Produto.Nome </span>
+                    <span class="texto2"><b>Viajante:</b> @item.Viagem.UsuarioViajante.Nome </span>
+                    <span class="texto2">
+                        <b>País:</b> @item.Viagem.Pais
+                    </span>
+
+
+
                 </div>
+                <form action="/Negociacao/EnviarAvaliacaoViajante" method="post">
+                    <input id="NegociacaoId" name="NegociacaoId" type="hidden" value="@item.Id">
+                    <input id="NotaViajante" name="NotaViajante" type="hidden" value="5">
+                    <ul class="avaliacao">
+                        <li class="star-icon" onclick="Avaliar('1','NotaViajante')"></li>
+                        <li class="star-icon" onclick="Avaliar('2','NotaViajante')"></li>
+                        <li class="star-icon" onclick="Avaliar('3','NotaViajante')"></li>
+                        <li class="star-icon" onclick="Avaliar('4','NotaViajante')"></li>
+                        <li class="star-icon" onclick="Avaliar('5','NotaViajante')"></li>
+                    </ul>
+                    <button>Enviar Avaliação</button>
+                </form>
+
             </div>
-            <span>O Viajante te entregou o produto solicitado?</span><br>
-            <span>O Viajante respondeu rapidamente?</span><br>
-            <span>O Viajante foi gentil e educado durante a negociação?</span>
-            <ul class="avaliacao">
-                <li class="star-icon" avaliacao="1"></li>
-                <li class="star-icon" avaliacao="2"></li>
-                <li class="star-icon" avaliacao="3"></li>
-                <li class="star-icon" avaliacao="4"></li>
-                <li class="star-icon" avaliacao="5"></li>
-            </ul>
-            <button>Enviar Avaliação</button>
-        </div>
-    }
+        }
+    </div>
+
+
+
 </div>
+<h3>Avaliações Encerradas</h3>
+<div class="linha">
+    <div class="coluna-50">
+        <h4>Como Viajante</h4>
+
+        @foreach (var item in Model.AvaliacaoEncerradaViajante)
+        {
+            @*card do produto*@
+            <div class="cards">
+                <img class="img_cards" src="/img/imagem_teste.jpg" />
+                <span class="texto2">@item.Negociacao.Produto.Nome </span>
+                <span class="texto2">@item.Negociacao.Comprador.Nome </span>
+                <ul>
+                    @for (int i = 1; i <= item.NotaComprador; i++)
+                    {
+                        <li class="star-icon"></li>
+                    }
+                </ul>
+            </div>
+
+
+
+
+
+
+
+        }
+    </div>
+    <div class="coluna-50">
+        <h4>Como Comprador</h4>
+        @foreach (var item in Model.AvaliacaoEncerrada)
+        {
+            @*card do produto*@
+            <div class="cards-2">
+                <img class="img_cards" src="/img/imagem_teste.jpg" />
+                <span class="texto2"> <b>Produto:</b> @item.Negociacao.Produto.Nome </span>
+                <span class="texto2"> <b>Viajante:</b> @item.Negociacao.Viagem.UsuarioViajante.Nome </span>
+
+                <ul class="avaliacao">
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        if (i <= item.NotaViajante)
+                        {
+                            <li class="star-icon-amarelo"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-cinza"></li>
+                        }
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+</div>
+    }
 
