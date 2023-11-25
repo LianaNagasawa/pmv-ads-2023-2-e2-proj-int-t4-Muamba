@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -13,7 +14,7 @@
         <nav>
             <ul class="nav_superior">
                 <li>
-                    <a href="/Produto/AnunciarViagem">Anunciar Viagem</a>
+                    <a href="/Negociacao/AnunciarViagem">Anunciar Viagem</a>
                 </li>
                 <li>
                     <a href="/Produto">Buscar Produtos</a>
@@ -25,7 +26,15 @@
                     <a href="/Negociacao/Avaliacoes">Minhas Avaliações</a>
                 </li>
                 <li>
-                    <a class="login" href="/Cadastro/Login">Login</a>
+                    @if (User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier) != null)
+                    {
+                        <span>Olá, @User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value.ToString()</span>
+                        <a class="login" href="/Usuarios/Logout">Logout</a>
+                        
+                    }else
+                    {
+                        <a class="login" href="/Usuarios/Login">Login</a>
+                    }
                 </li>
             </ul>
         </nav>
@@ -33,50 +42,60 @@
 
 
 
-    <aside>
+<aside>
+    @RenderBody()
+</aside>
 
-        @RenderBody()
-
-
-    </aside>
     <footer>
-        <ul class="nav_inferior">
-            <li>
-                <a href="/Home/Index.cshtml">Quem Somos</a>
-            </li>
-            <li>
-                <a href="/ComoFunciona/Index">Como Isso Funciona?</a>
-            </li>
-            <li>
-                <a href="/ComoFunciona/ComoFuncionaComprador">Para Compradores</a>
-            </li>
-            <li>
-                <a href="/ComoFunciona/ComoFuncionaViajante">Para Viajantes</a>
-            </li>
-            <li>
-                <a href="/Produto/BuscarProduto">Produtos</a>
-            </li>
-            <li>
-                <a href="/Negociacao/Avaliacoes">Minhas Avaliações</a>
-            </li>
-            <li>
-                <a href="/Cadastro/Login">Login</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="/ComoFunciona/TermosDeUso.cshtml">Termos de Uso</a>
-            </li>
-            <li>
-                <a href="/ComoFunciona/PoliticaDePrivacidade.cshtml">Política de Privacidade</a>
-            </li>
-            <li>
-                <a href="/ComoFunciona/Ajuda.cshtml">Ajuda</a>
-            </li>
-        </ul>
-        <img class="logo_footer" src="~/img/logo_muamba.JPG" alt="">
+        <div >
+          
+            <div >
+                  <ul class="nav_inferior">
+                      <li>
+                      <a href="/Home/Index.cshtml">Quem Somos</a>
+                      </li>
+                      <li>
+                      <a href="/ComoFunciona/Index">Como Isso Funciona?</a>
+                      </li>
+                      <li>
+                      <a href="/ComoFunciona/ComoFuncionaComprador">Para Compradores</a>
+                      </li>
+                      <li>
+                      <a href="/ComoFunciona/ComoFuncionaViajante">Para Viajantes</a>
+                      </li>
+                      <li>
+                      <a href="/Produto/BuscarProduto">Produtos</a>
+                      </li>
+                      <li>
+                      <a href="/Negociacao/Avaliacoes">Minhas Avaliações</a>
+                      </li>
+                      <li>
+                      <a href="/Cadastro/Login">Login</a>
+                      </li>
+                  </ul>
+            </div>
 
+            
+            <div >
+                <ul>
+                <li>
+                <a href="/ComoFunciona/TermosDeUso.cshtml">Termos de Uso</a>
+                </li>
+                <li>
+                <a href="/ComoFunciona/PoliticaDePrivacidade.cshtml">Política de Privacidade</a>
+                </li>
+                <li>
+                <a href="/ComoFunciona/Ajuda.cshtml">Ajuda</a>
+                </li>
+                </ul>
+            </div> 
+            
+            <div >
+                <img class="logo_footer" src="~/img/logo_muamba.JPG" alt="">    
+            </div>
+        </div>
     </footer>
+
 
 
 

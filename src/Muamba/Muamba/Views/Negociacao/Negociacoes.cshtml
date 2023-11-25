@@ -1,5 +1,177 @@
-﻿@*
+﻿@model NegociacoesViewModel
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+
 @{
+    <h3>Minhas Negociações</h3>
+    <p class="texto1">Você recebeu algumas ofertas:</p>
+    <span class="texto2">Ao aceitar a Negociação, suas infomações de contato serão enviadas ao comprador!</span>
+    <p class="texto2">Acompanhe suas negociações:</p>
+    <div class="linha">
+        <div class="coluna-50">
+            <h4>Como Viajante</h4>
+            @foreach (var item in Model.NegociacoesViajante)
+            {
+                @*Info Produto*@
+                <div class="cards-2">
+                    <img class="img_cards" src="/img/imagem_teste.jpg" />
+                    <span class="texto2"><b>Produto:</b> @item.Produto.Nome </span>
+                    <span class="texto2"><b>Comprador:</b>@item.Comprador.Nome </span>
+                    <ul class="avaliacao">
+                        @if (item.Comprador.MediaAvaliacao.HasValue && item.Comprador.MediaAvaliacao.Value >= 1)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Comprador.MediaAvaliacao.HasValue && item.Comprador.MediaAvaliacao.Value >= 2)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Comprador.MediaAvaliacao.HasValue && item.Comprador.MediaAvaliacao.Value >= 3)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Comprador.MediaAvaliacao.HasValue && item.Comprador.MediaAvaliacao.Value >= 4)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Comprador.MediaAvaliacao.HasValue && item.Comprador.MediaAvaliacao.Value >= 5)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+                    </ul>
+
+                    @if (@item.Status == 0)
+                    {
+                        <div class="linha">
+                            <div class="coluna-50">
+                                <form action="AceitarNegociacao">
+                                    <input type="hidden" name="NegociacaoId" value="@item.Id">
+                                    <button class="button-2">Aceitar</button>
+                                </form>
+                            </div>
+                            <div class="coluna-50">
+                                <form action="RecusarNegociacao">
+                                    <input type="hidden" name="NegociacaoId" value="@item.Id">
+                                    <button class="button-2">Recusar</button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                    else if (@item.Status == 1)
+                    {
+                        <span class="texto2">Você aceitou essa negociação </span>
+                    }
+                    else
+                    {
+                        <span class="texto2">Você recusou essa negociação </span>
+                    }
+
+
+                </div>
+
+            }
+        </div>
+
+
+        <div class="coluna-50">
+            <h4>Como Comprador</h4>
+            @foreach (var item in Model.NegociacoesComprador)
+            {
+                @*card Produto*@
+                <div class="cards-2">
+                    <img class="img_cards" src="@item.Produto.FotoProduto" />
+                    <span class="texto2"><b>Produto:</b>  @item.Produto.Nome </span>
+                    <span class="texto2"><b>Viajante:</b>  @item.Viagem.UsuarioViajante.Nome </span>
+                    <ul class="avaliacao">
+                        @if (item.Viagem.UsuarioViajante.MediaAvaliacao.HasValue && item.Viagem.UsuarioViajante.MediaAvaliacao.Value >= 1)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Viagem.UsuarioViajante.MediaAvaliacao.HasValue && item.Viagem.UsuarioViajante.MediaAvaliacao.Value >= 2)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Viagem.UsuarioViajante.MediaAvaliacao.HasValue && item.Viagem.UsuarioViajante.MediaAvaliacao.Value >= 3)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Viagem.UsuarioViajante.MediaAvaliacao.HasValue && item.Viagem.UsuarioViajante.MediaAvaliacao.Value >= 4)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+
+                        @if (item.Viagem.UsuarioViajante.MediaAvaliacao.HasValue && item.Viagem.UsuarioViajante.MediaAvaliacao.Value >= 5)
+                        {
+                            <li class="star-icon-avaliado"></li>
+                        }
+                        else
+                        {
+                            <li class="star-icon-naoAvaliado"></li>
+                        }
+                    </ul>
+
+                    @if (@item.Status == 0)
+                    {
+                        <span class="texto2">Em análise </span>
+                    }
+                    else if (@item.Status == 1)
+                    {
+                        <span class="texto2">Aceito </span>
+                    }
+                    else
+                    {
+                        <span class="texto2">Recusado </span>
+                    }
+                </div>
+
+            }
+        </div>
+    </div>
 }
+
+
+

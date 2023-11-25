@@ -4,6 +4,19 @@ header {
     border-bottom: 1px solid #9395b4;
 }
 
+a {
+    text-decoration: none;
+    color: #4149BE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+    margin-left: 20%;
+    position: relative;
+}
+
+
+
 .img_fundo {
     opacity: 0.4;
     width: 972px;
@@ -56,6 +69,7 @@ aside {
     float: left;
 }
 
+
 .nav_inferior {
     margin-left: 200px;
 }
@@ -66,6 +80,7 @@ footer {
     border-top: 1px solid #6065A8;
     position: sticky;
     display: flex;
+    margin-top: 50px;
 }
 
 .logo_footer {
@@ -78,33 +93,58 @@ footer {
 
 h1 {
     color: #050505;
-    font-family: Ubuntu;
+    font-family: monospace;
     font-size: 39px;
     line-height: 50px;
     width: 1093px;
     text-align: center;
 }
 
-span {
+
+
+.texto1 {
+    color: #5D5E60;
+    font-family: system-ui;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    position: relative;
+    margin-left: 50px;
+}
+
+.texto2 {
     color: #5D5E60;
     font-family: system-ui;
     font-size: 12px;
     line-height: 23px;
+    position: relative;
     width: 385px;
+}
+
+.texto3 {
+    color: #3e3e40;
+    font-family: system-ui;
+    font-size: 15px;
+    line-height: 23px;
+    width: 385px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .categoria {
     background-color: #FFFFFF;
-    border: 1px solid #D2EDF8;
-    width: 900px;
-    height: 200px;
-    display: block;
+    border: 1px solid #f9f9f9;
+    border-radius: 6px;
     color: #5D5E60;
+    position: relative;
     font-family: monospace;
     font-size: 15px;
     text-align: left;
-    position: relative;
-    padding-top: 50px;
+    padding: 10px 5px 10px 5px;
+}
+
+.categoria-input {
+    margin-left: 50px;
 }
 
 .palavra-chave {
@@ -114,11 +154,13 @@ span {
 }
 
 .info_busca_produto {
-    border: 1px solid #D2EDF8;
-    border-radius: 15px;
-    width: 800px;
     height: 30px;
     display: block;
+    background-color: #FFFFFF;
+    border: 1px solid #a4a6a8;
+    border-radius: 6px;
+    color: #5D5E60;
+    position: relative;
 }
 
 .info_busca_localidade {
@@ -130,25 +172,27 @@ span {
 }
 
 .produtos_encontrados {
-    display: inline-flex;
 }
 
-.cards_selecionar_produtos {
-    margin-top: 50px;
+
+
+.cards {
     margin-right: 30px;
     background-color: white;
     position: sticky;
-    border: 2px dotted #5A6978;
+    border: 2px dotted #b9b6b6;
     border-radius: 16px;
     width: 200px;
     height: 280px;
     display: inline-grid;
     align-content: space-around;
+    align-items: center;
 }
 
-.img_cards_selecionar_produtos {
+.img_cards {
     width: 100px;
     height: 100px;
+    display: inline-block
 }
 
 button {
@@ -159,9 +203,20 @@ button {
     border-radius: 38px;
     font-size: 15px;
     font-family: system-ui;
-    width: auto;
-    height: auto;
-    padding: 10px 12px 10px 12px;
+    padding: 06px 10px 06px 10px;
+    margin-top: 20px;
+}
+
+.button {
+    position: relative;
+    color: white;
+    background-color: #D71A69;
+    border: 1px solid #FFFFFF;
+    border-radius: 38px;
+    font-size: 15px;
+    font-family: system-ui;
+    padding: 06px 10px 06px 10px;
+    align-content: center;
 }
 
 .produto_nao_encontrado {
@@ -174,18 +229,31 @@ button {
     position: relative;
 }
 
+
 h3 {
     color: #050505;
     font-family: cursive;
-    font-size: 15px;
-    line-height: 50px;
+    font-size: 20px;
     width: 1093px;
     text-align: center;
     position: relative;
+    border-bottom: 1px solid #c1c2c8;
+    margin-top: 50px;
 }
 
-.avaliacao{
-    display:flex;
+h4 {
+    color: #f80eed;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 50px;
+    width: 1093px;
+    text-align: left;
+    position: relative;
+}
+
+.avaliacao {
+    display: flex;
+    margin-left: -43px;
 }
 
 .star-icon {
@@ -195,17 +263,118 @@ h3 {
     color: #FFE500;
 }
 
-    .star-icon::before {
-        content: "\2605"; /*cheio*/
-    }
-
-.star-icon.ativo ~ .star-icon::before{
-    content:"\2606"; /*vazio*/
+.star-icon-avaliado {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #FFE500;
 }
 
-.avaliacao:hover ~.star-icon::before{
-    content:"\2605"; /*cheio*/
+.star-icon-naoAvaliado {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #9395b4;
 }
+
+.star-icon-avaliado::before {
+    content: "\2605"; /*cheio*/
+}
+
+.star-icon-naoAvaliado::before {
+    content: "\2606"; /*vazio*/
+}
+
+
+.star-icon::before {
+    content: "\2605"; /*cheio*/
+}
+
+.star-icon.ativo ~ .star-icon::before {
+    content: "\2606"; /*vazio*/
+}
+
+.avaliacao:hover ~ .star-icon::before {
+    content: "\2605"; /*cheio*/
+}
+
 .star-icon:hover ~ .star-icon::before {
     content: "\2606"; /*vazio*/
+}
+
+
+
+
+.star-icon-amarelo {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #FFE500;
+}
+
+.star-icon-cinza {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #5D5E60;
+}
+
+.star-icon-amarelo::before {
+    content: "\2605"; /*cheio*/
+}
+
+.star-icon-cinza::before {
+    content: "\2605"; /*vazio*/
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna-50 {
+    width: 50%;
+}
+
+.coluna-30 {
+    width: 30%;
+}
+
+.cards-2 {
+    margin-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+    position: sticky;
+    border: 2px dotted #b9b6b6;
+    border-radius: 16px;
+    width: 400px;
+    height: 280px;
+    display: inline-grid;
+    align-content: space-around;
+    align-items: center;
+}
+
+.cards-3 {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #dae0f1ff;
+    position: sticky;
+    border: 2px dotted #b9b6b6;
+    border-radius: 16px;
+    width: 200px;
+    height: 150px;
+    display: block;
+    align-content: space-around;
+    align-items: center;
+}
+
+.button-2 {
+    position: relative;
+    color: #4149BE;
+    background-color: #fff;
+    border: 1px solid #050505;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-top: 20px;
 }

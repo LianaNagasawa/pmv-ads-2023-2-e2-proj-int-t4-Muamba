@@ -42,8 +42,8 @@ namespace Muamba.Controllers
 
         public async Task<IActionResult> CadastrarProduto()
         {
-            var cadastroProdutoViewModel = new CadastroProdutoViewModel(); //instanciando objeto Cadatro de Produto
-            var categorias = await _context.Categorias.ToListAsync(); //listar as categorias cadastradas no banco de dados oara seleção
+            var cadastroProdutoViewModel = new CadastroProdutoViewModel(); //instanciando objeto Cadastro de Produto
+            var categorias = await _context.Categorias.ToListAsync(); //listar as categorias cadastradas no banco de dados para seleção
             cadastroProdutoViewModel.Categorias = categorias;
 
             return View("CadastrarProduto", cadastroProdutoViewModel);

@@ -1,8 +1,77 @@
-﻿@{
+﻿@model HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="texto1">
+    <span>Existem pessoas que compram, produtos de fora do país....</span><br />
+    <span>Existem pessoas que viajam bastante e estão dispostas a trazer esses produtos!</span>
 </div>
+
+<h4>QUAL DELES É VOCÊ?</h4>
+
+
+<h3>Negociações Recentes</h3>
+
+@foreach (var item in Model.Negociacoes)
+{
+        <div class="cards">
+            <img class="img_cards" src="/img/imagem_teste.jpg" />
+            <span class="texto1">@item.Viagem.Pais </span>
+        </div>
+}
+<br/>
+<div class=""> 
+<a href="/Produto" class="button">Buscar um Produto</a>
+</div>
+
+
+<h3>Como isso Funciona?</h3>
+
+<a class="link" href="/Home/ComoFuncionaViajante">Vou viajar</a>
+<a class="link" href="/Home/ComoFuncionaComprador">Quero encomendar um produto</a> <br />
+
+<span class="texto1">As pessoas compram produtos de outros países por diversos motivos. Comprar produtos de outros países, pode oferecer aos consumidores uma vasta gama de opções, desde a satisfação da sua curiosidade sobre diferentes culturas.</span>
+
+<h3>Melhores Avaliações</h3>
+@foreach (var item in Model.AvaliacoesComprador)
+{
+    <div class="cards">
+        <img class="img_cards" src="/img/Imagem_usuario.png" />
+        <span class="texto1">@item.Negociacao.Comprador.Nome </span>
+        <ul class="avaliacao">
+            @for (int i = 1; i <= 5; i++)
+            {
+                if (i <= item.NotaComprador)
+                {
+                    <li class="star-icon-amarelo"></li>
+                }
+                else
+                {
+                    <li class="star-icon-cinza"></li>
+                }
+            }
+        </ul>
+    </div>
+}
+@foreach (var item in Model.AvaliacoesViajante)
+{
+    <div class="cards">
+        <img class="img_cards" src="/img/Imagem_usuario.png" />
+        <span class="texto1">@item.Negociacao.Viagem.UsuarioViajante.Nome </span>
+        <ul class="avaliacao">
+            @for (int i = 1; i <= 5; i++)
+            {
+                if (i <= item.NotaViajante)
+                {
+                    <li class="star-icon-amarelo"></li>
+                }
+                else
+                {
+                    <li class="star-icon-cinza"></li>
+                }
+            }
+        </ul>
+    </div>
+}
