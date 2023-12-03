@@ -36,7 +36,7 @@ jobs:
         with:
           files: '${{env.DOTNET_ROOT}}/myapp/appsettings.json'
         env:
-          ConnectionStrings.DefaultConnection: ${{ secrets.SQL_CONNECTIONSTRING }}
+          ConnectionStrings__DefaultConnection: ${{ secrets.SQL_CONNECTIONSTRING }}
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
