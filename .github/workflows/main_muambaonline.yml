@@ -34,7 +34,7 @@ jobs:
       - name: App settings variable substitution
         uses: microsoft/variable-substitution@v1
         with:
-          files: '${{env.DOTNET_ROOT}}\myapp\appsettings.json'
+          files: '${{env.DOTNET_ROOT}}/myapp/appsettings.json'
         env:
           ConnectionStrings:DefaultConnection: ${{ secrets.SQL_CONNECTIONSTRING }}
 
