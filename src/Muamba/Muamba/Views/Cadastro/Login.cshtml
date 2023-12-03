@@ -1,5 +1,41 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Muamba.Models.Usuario
+
 @{
+    ViewData["Title"] = "Login";
+}
+
+<h3>Login</h3>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf" class="info_busca_produto" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="info_busca_produto" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Acessar" class="btn BotaoCadastro" />
+            </div>
+        </form>
+        <h3>@ViewBag.Message</h3>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

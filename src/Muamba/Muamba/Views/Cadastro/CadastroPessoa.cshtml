@@ -1,5 +1,76 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Muamba.Models.Usuario
+
 @{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Quero me cadastrar!</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" asp-action="Upload">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <span class="texto2">Digite seu E-mail</span><br>
+                <input asp-for="Email" class="info_busca_produto" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="texto2">Digite sua senha</span><br>
+                <input asp-for="Senha" class="info_busca_produto" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="texto2">Nome completo</span><br>
+                <input asp-for="Nome" class="info_busca_produto" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="texto2">Cpf</span><br>
+                <input asp-for="Cpf" class="info_busca_produto" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <span class="texto2">Data de nascimento</span><br>
+                <input asp-for="DataNasc" class="info_busca_produto" type="date" />
+                <span asp-validation-for="DataNasc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="texto2">Cidade</span><br>
+                <input asp-for="Cidade" class="info_busca_produto" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="texto2">Estado</span><br>
+                <input asp-for="Estado" class="info_busca_produto" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="texto2">Telefone</span><br>
+                <input asp-for="Telefone" class="info_busca_produto" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="FormFoto">
+                <span class="texto2>Foto</span><br>
+                <input asp-for="Foto" class="info_busca_produto" />
+                <span asp-validation-for="Foto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn BotaoCadastro" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
