@@ -34,7 +34,7 @@ namespace Muamba.Controllers
         }
         public IActionResult QuemSomos()
         {
-            return View();
+            return View("QuemSomos");
         }
 
 

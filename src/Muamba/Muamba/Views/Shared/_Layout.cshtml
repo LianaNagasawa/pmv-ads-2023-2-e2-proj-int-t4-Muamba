@@ -30,8 +30,9 @@
                     {
                         <span>Olá, @User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value.ToString()</span>
                         <a class="login" href="/Usuarios/Logout">Logout</a>
-                        
-                    }else
+
+                    }
+                    else
                     {
                         <a class="login" href="/Usuarios/Login">Login</a>
                     }
@@ -42,57 +43,56 @@
 
 
 
-<aside>
-    @RenderBody()
-</aside>
+    <aside>
+        @RenderBody()
+    </aside>
 
-    <footer>
-        <div >
-          
-            <div >
-                  <ul class="nav_inferior">
-                      <li>
-                      <a href="/Home/Index.cshtml">Quem Somos</a>
-                      </li>
-                      <li>
-                      <a href="/ComoFunciona/Index">Como Isso Funciona?</a>
-                      </li>
-                      <li>
-                      <a href="/ComoFunciona/ComoFuncionaComprador">Para Compradores</a>
-                      </li>
-                      <li>
-                      <a href="/ComoFunciona/ComoFuncionaViajante">Para Viajantes</a>
-                      </li>
-                      <li>
-                      <a href="/Produto/BuscarProduto">Produtos</a>
-                      </li>
-                      <li>
-                      <a href="/Negociacao/Avaliacoes">Minhas Avaliações</a>
-                      </li>
-                      <li>
-                      <a href="/Cadastro/Login">Login</a>
-                      </li>
-                  </ul>
-            </div>
+    <footer class="linha">
 
-            
-            <div >
-                <ul>
+        <div class="coluna-30">
+            <ul class="nav_inferior">
                 <li>
-                <a href="/ComoFunciona/TermosDeUso.cshtml">Termos de Uso</a>
+                    <a href="/Home/QuemSomos">Quem Somos</a>
                 </li>
                 <li>
-                <a href="/ComoFunciona/PoliticaDePrivacidade.cshtml">Política de Privacidade</a>
+                    <a href="/ComoFunciona/Index">Como Isso Funciona?</a>
                 </li>
                 <li>
-                <a href="/ComoFunciona/Ajuda.cshtml">Ajuda</a>
+                    <a href="/ComoFunciona/ComoFuncionaComprador">Para Compradores</a>
                 </li>
-                </ul>
-            </div> 
-            
-            <div >
-                <img class="logo_footer" src="~/img/logo_muamba.JPG" alt="">    
-            </div>
+                <li>
+                    <a href="/ComoFunciona/ComoFuncionaViajante">Para Viajantes</a>
+                </li>
+                <li>
+                    <a href="/Produto/BuscarProduto">Produtos</a>
+                </li>
+                <li>
+                    <a href="/Negociacao/Avaliacoes">Minhas Avaliações</a>
+                </li>
+                <li>
+                    <a href="/Cadastro/Login">Login</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="coluna-30">
+            <ul>
+                <li>
+                    <a href="/ComoFunciona/TermosDeUso">Termos de Uso</a>
+                </li>
+                <li>
+                    <a href="/ComoFunciona/PoliticaDePrivacidade">Política de Privacidade</a>
+                </li>
+                <li>
+                    <a href="/ComoFunciona/">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <img class="logo_footer" src="~/img/logo_muamba.JPG" alt="">
+        </div>
         </div>
     </footer>
 

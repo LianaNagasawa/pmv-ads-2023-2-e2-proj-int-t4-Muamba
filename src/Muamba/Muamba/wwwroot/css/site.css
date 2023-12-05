@@ -121,6 +121,19 @@ h1 {
     width: 385px;
 }
 
+.texto4 {
+    color: #3e3e40;
+    font-family: system-ui;
+    font-size: 20px;
+    line-height: 23px;
+    width: 700px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    position: relative;
+
+}
+
 .texto3 {
     color: #3e3e40;
     font-family: system-ui;
@@ -129,6 +142,7 @@ h1 {
     width: 385px;
     font-weight: bold;
     font-style: italic;
+
 }
 
 .categoria {
