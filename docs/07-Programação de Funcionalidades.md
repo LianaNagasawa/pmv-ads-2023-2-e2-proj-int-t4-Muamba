@@ -11,10 +11,10 @@ A tela Home-Page mostra destaques dos conteúdos oferecidos, como “Negociaçõ
 ![Home-Page](img/HomePage2.JPG)
 
 ### Requisitos Atendidos
-RF-001
-RF-005
-RF-013
-RF-014
+RF-001 <br>
+RF-005 <br>
+RF-013 <br>
+RF-014 <br>
 
 ### Artefatos da funcionalidade
 ![Home-Page](img/EstruturaDadosHomePage.JPG) 
@@ -23,7 +23,7 @@ RF-014
 ![Home-Page](img/HomePage1.JPG) 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Login
@@ -33,7 +33,7 @@ A tela “Login”, solicita e-mail e senha para o usuário efetuar o login e ai
 ![Login](img/Login_Fluxo.JPG) 
 
 ### Requisitos Atendidos
-1. RF-005
+RF-005
 
 ### Artefatos da funcionalidade
 ![Login](img/Login_Fluxo.JPG)
@@ -42,7 +42,7 @@ A tela “Login”, solicita e-mail e senha para o usuário efetuar o login e ai
 ![Login](img/EstruturaDadosLogin.JPG)
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 ## Página De Cadastro 
@@ -52,17 +52,17 @@ A tela “Cadastro”, possui campos para o envio de informações necessárias 
 ![Cadastro](img/Cadastro_Pessoa_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-02
-2. RF-05
+RF-02 <br>
+RF-05 <br>
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -73,20 +73,20 @@ A tela “Como Isso Funciona” tem uma breve descrição do funcionamento do si
 ![Como Funciona](img/Como_Funciona_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-003
-2. RF-007
-3. RF-011
-4. RF-013
-5. RF-014
+RF-003 <br>
+RF-007 <br>
+RF-011 <br>
+RF-013 <br>
+RF-014 <br>
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
  
 
@@ -97,38 +97,38 @@ A tela Como Isso Funciona para Viajante, tem uma breve descrição do funcioname
 ![Como Funciona para Viajantes](img/Como_Funciona_Viajante_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-014
+RF-014
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
 ## Página Como Funciona Para Compradores
 
-A tela Como Isso Funciona para comprador, tem uma breve descrição do funcionamento do site para os compradores, o passo-a-passo para iniciar a busca de produtos e o link para iniciar a página “buscar de produtos”.
+A tela Como Isso Funciona para comprador tem uma breve descrição do funcionamento do site para os compradores, o passo-a-passo para iniciar a busca de produtos e o link para iniciar a página “buscar de produtos”.
 
 ![Como Funciona para Compradores](img/Como_Funciona_Comprador_Fluxo.JPG) 
 
 ### Requisitos Atendidos
-1. RF-003
-2. RF-007
-3. RF-011
+RF-003 <br>
+RF-007 <br>
+RF-011 <br>
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -139,18 +139,18 @@ A tela “Buscar Produtos” oferece seleção de categoria e a inserção de at
 ![Buscar Produtos](img/Buscar_Produtos_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-003
-2. RF-007
-3. RF-011
+RF-003 <br>
+RF-007 <br>
+RF-011 <br>
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -161,18 +161,18 @@ A tela “Cadastro de Produto” oferece seleção de categoria, a inserção de
 ![Cadastrar Produtos](img/Cadastrar_Produtos_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-008
-2. RF-009
-3. RF-006
+RF-008 <br>
+RF-009 <br>
+RF-006 <br>
 
 ### Artefatos da funcionalidade
-1. a desenvolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -183,18 +183,18 @@ A tela “Negociações” mostra todas as ofertas de negociações recebidas pa
 ![Negociações](img/Negociacoes_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-004
-2. RF-012
-3. RF-013
+RF-004 <br>
+RF-012 <br>
+RF-013 <br>
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -205,16 +205,16 @@ A tela “Iniciar Negociação” mostra os viajantes encontrados e o link para 
 ![Iniciar Negociação](img/Iniciar_Negociacao_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-011
+RF-011
 
 ### Artefatos da funcionalidade
-1. a desenolver
+
    
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -225,16 +225,15 @@ A tela “Anunciar Viagem”, oferece a seleção das informações do local da 
 ![Anunciar Viagem](img/Anunciar_Viagem_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-014
+RF-014
 
 ### Artefatos da funcionalidade
-1. a desenvolver
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
@@ -245,17 +244,16 @@ A tela “Avaliações” mostra todas as negociações avaliadas ou pendentes d
 ![Avaliações](img/Avaliacoes_Fluxo.JPG)
 
 ### Requisitos Atendidos
-1. RF-001
-2. RF-010
+RF-001 <br>
+RF-010 <br>
 
 ### Artefatos da funcionalidade
-1. a desenvolver
 
 ### Estrutura de Dados
 
 
 ### Instruções de Acesso
-1. Abra um navegador de internet e informe a seguinte URL: a desenvolver
+Abra um navegador de internet e informe a seguinte URL do domínio.
 
 
 
