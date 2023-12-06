@@ -13,6 +13,7 @@
 
 
 **CT-04– Notificações ao Administrador e Comprador sobre novos produtos**
+
 Não implementado. 
 
 **CT-05– Viajante cadastrando a próxima viagem**
