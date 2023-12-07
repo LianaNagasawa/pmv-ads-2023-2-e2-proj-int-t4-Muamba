@@ -35,8 +35,8 @@
 | Objetivo do Teste 	| Checar novos produtos sendo cadastrados no site. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://muambabrasil.com.br<br>  - Ir para a página de produtos e realizar um novo cadastro de produto <br> - Verificar se o Admin foi propriamente notificado <br> - Aceitar o produto <br> - Fazer o mesmo processo e recusar o produto <br> - Logar como usuário comprador <br> - Verificar se a mensagem de aceita ou recusa foi propriamente recebida |
 |Critério de Êxito | - Todos os botões devem ser clicáveis <br> - Ao receber uma notificação o admin deve receber todo o formulário previamente preenchido <br> - O admin tem a possibilidade de recusar ou aceitar <br> - O usuário comprador recebe a mensagem avisando sobre a decisão do admin. |
-|Resultado Obtido | Todos os Critérios passaram, exceto como o usuário receberá o aviso da decisão do administrador. |
-|Avaliação | **PARCIALMENTE APROVADO** |
+|Resultado Obtido | ADMIN page não implementada e sem mensagem de confirmação para usuários |
+|Avaliação | **REPROVADO** |
 
 
 | Caso de Teste 	| CT-05– Viajante cadastrando a próxima viagem |
